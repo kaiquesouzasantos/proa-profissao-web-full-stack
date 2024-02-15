@@ -13,7 +13,7 @@
 ### TOPICOS
 
 - **Interfaces, UI/UX**
-  - [Figma](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/interface-ui-ux/figma)
+  - [Prototipação com Figma](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/interface-ui-ux/figma)
 
 #
 ### TECNOLOGIAS

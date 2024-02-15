@@ -12,7 +12,7 @@
 #
 ### TOPICOS
 
-- Modulo
+- **Interfaces, UI/UX**
   - [Conteudo](https://github.com/kaiquesouzasantos/oracle-next-education-2024/tree/master/cursos/iniciante-em-programacao/01-JavaScript)
 
 #

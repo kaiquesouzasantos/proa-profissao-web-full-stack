@@ -13,7 +13,7 @@
 ### TOPICOS
 
 - **Interfaces, UI/UX**
-  - [Conteudo](https://github.com/kaiquesouzasantos/oracle-next-education-2024/tree/master/cursos/iniciante-em-programacao/01-JavaScript)
+  - [Figma](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/interface-ui-ux/figma)
 
 #
 ### TECNOLOGIAS

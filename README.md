@@ -14,7 +14,10 @@
 
 - **Interfaces, UI/UX**
   - [Prototipação com Figma](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/interface-ui-ux/figma)
-
+- **Front-End**
+- **Back-End**
+- **Banco de Dados Relacional**
+- **DemoDay**
 #
 ### TECNOLOGIAS
 

@@ -1,7 +1,7 @@
 <h1 align=center>PROAPROFISSAO</h1>
 
 <p align="center">
-  <img src="logo_proa.png" width="500">
+  <img src="logo-proa.png" width="500">
 </p>
 
 #

@@ -7,7 +7,7 @@
 #
 ### SOBRE
 
-- Este repositório abriga o progresso e desenvolvimento das atividades técnicas realizadas no âmbito do programa PROAPROFISSAO em 2024.
+- Repositório que abriga o desenvolvimento das atividades técnicas realizadas nas dependências do programa PROPROFISSÃO, no primeiro semestre de 2024.
 
 #
 ### TOPICOS

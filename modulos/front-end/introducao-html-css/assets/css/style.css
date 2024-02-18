@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/monokai.min.css");
 
+/* Variaveis */
 :root {
     --color-primary: #1d1c1c;
-    --color-secundary: #1E1E1E;
+    --color-secundary: #1C1B1B;
+    --color-reserv: #3d3d3d;
     --color-default: #fff;
 }
 
+/* Global */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -23,6 +26,17 @@ main {
     padding: 20px;
 }
 
+.main-container {
+    margin-left: 250px; 
+    margin-right: 15px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
 h2, h3, p, .link {
     color: var(--color-default);
 }
@@ -35,35 +49,14 @@ p {
     text-align: justify;
 }
 
-code {
-    border-radius: 10px;
-    font-size: larger;
-}
-
-img, video, iframe {
-    width: 100%;
-}
-
-.definition p {
-    margin-bottom: 15px;
-}
-
-/* Trecho Vulneravel */
-.div-example h1, .div-example h2, .div-example h3, .div-example h4, .div-example h5, .div-example h6 {
-    color: #ccc;
-}
-
-.link {
-    text-decoration: none;
-    text-align: center;
-}
-
+/* Menu Superior - Pesquisa */
 header {
     z-index: 1;
     display: flex;
     position: fixed;
     align-items: center;
     width: 100%;
+    border-bottom: 1px solid var(--color-reserv);
 }
 
 #input-search {
@@ -86,17 +79,7 @@ header, #input-search, #icon-search {
     background-color: var(--color-primary);
 }
 
-.main-container {
-    margin-left: 250px; 
-    margin-right: 15px;
-    width: 100%;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-}
-
+/* Menu Lateral */
 .sidebar {
     background-color: var(--color-secundary);
     color: var(--color-default);
@@ -105,6 +88,7 @@ header, #input-search, #icon-search {
     height: 100vh;
     transition: width 0.5s;
     position: fixed;
+    border-right: 1px solid var(--color-reserv);
 }
 
 .sidebar ul {
@@ -115,7 +99,7 @@ header, #input-search, #icon-search {
 
 .sidebar li {
     margin-bottom: 10px;
-    font-size: medium;
+    font-size: small;
 }
 
 .sidebar li a {
@@ -131,12 +115,31 @@ header, #input-search, #icon-search {
     color: var(--color-secundary);
 }
 
-.definition {
-    color: var(--color-default);
-}
-
+/* Topico */
 pre {
     position: relative;
+}
+
+code {
+    border-radius: 10px;
+    font-size: larger;
+}
+
+img, video, iframe {
+    width: 100%;
+}
+
+.definition p {
+    margin-bottom: 15px;
+}
+
+.link {
+    text-decoration: none;
+    text-align: center;
+}
+
+.definition {
+    color: var(--color-default);
 }
 
 .button-copy {
@@ -154,6 +157,11 @@ pre {
 }
 
 .button-copy img {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Trecho Vulneravel */
+.div-example h1, .div-example h2, .div-example h3, .div-example h4, .div-example h5, .div-example h6 {
+    color: #ccc;
 }

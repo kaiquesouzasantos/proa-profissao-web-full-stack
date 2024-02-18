@@ -8,6 +8,8 @@ export class Treatment {
     static mutateFormateTitleForName(title) {
         return title
             .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
             .replace(" ", "-");
     }
 

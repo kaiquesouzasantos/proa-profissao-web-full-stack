@@ -7,11 +7,6 @@
     --color-default: #fff;
 }
 
-* {
-    width: 1368px;
-    height: 768px;
-}
-
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;

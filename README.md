@@ -15,9 +15,9 @@
 - **Interfaces, UI/UX**
   - [Prototipação com Figma](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/interface-ui-ux/figma)
 - **Front-End**
-  - [Introdução ao HTML e CSS]()
+  - [Introdução ao HTML e CSS](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/introducao-html-css)
   - Projetos
-    - [projeto]() 
+    - [ProjeX]() 
 - **Lógica de Programação**
   - [VisuAlg]() 
   - [Javascript]()

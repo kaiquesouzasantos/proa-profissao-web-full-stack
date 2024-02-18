@@ -1,4 +1,4 @@
-import { Treatment } from "./traetment.component.js"
+import { Constructor } from "./contructor.component.js"
 
 export class Manipulator {
     static addTopic(content) {
@@ -9,14 +9,14 @@ export class Manipulator {
     static addView(topic) {
         this.addElementHTML(
             document.getElementsByTagName("main")[0],
-            Treatment.constructView(topic)
+            Constructor.constructView(topic)
         )
     }
 
     static addNavigation(topic) {
         this.addElementHTML(
             document.getElementById("navbar"),
-            Treatment.constructNavigation(topic)
+            Constructor.constructNavigation(topic)
         )
     }
 

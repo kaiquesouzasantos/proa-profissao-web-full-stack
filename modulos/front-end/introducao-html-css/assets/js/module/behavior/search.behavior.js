@@ -2,8 +2,7 @@ import { Treatment } from "../component/traetment.component.js"
 
 export class Search {
     static filter(search) {
-        let topics = document.getElementsByName("topic")
-        topics.forEach(
+        document.getElementsByName("topic").forEach(
             topic => {
                 if(!this.format(topic.textContent).includes(this.format(search))) 
                     topic.style.display = "none"

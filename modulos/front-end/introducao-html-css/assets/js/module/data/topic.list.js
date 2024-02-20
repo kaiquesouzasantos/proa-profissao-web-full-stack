@@ -107,7 +107,7 @@ new Topic(
 `<img src="link/caminho"/>`
 ),
 new Topic(
-"Incorporar Página ", 
+"Incorporar Página", 
 `
 <p>Permite a incorporação de conteúdo de outra fonte, como uma página externa ou um vídeo.</p>
 <iframe height="600px" src="https://www.youtube.com/embed/ieilZUgxwsc?si=zGEyMCXsandSqqxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -115,5 +115,19 @@ new Topic(
 `<iframe>
     <source src="link/caminho">
 </iframe>`
+),
+new Topic(
+    "Meta Dados", 
+    `
+    <p>Os metadados são “dados sobre dados”, utilizados para encontrar e descobrir recursos. Por meio da ferramenta, é possível descrever páginas web e componentes acessíveis presentes nelas, além de associar versões alternativas de conteúdos.</p>
+    `, 
+    `<meta charset="UTF-8">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="description" content="Free Web tutorials">
+<meta name="author" content="Kaique">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<!-- Uso Ocasional, Redireciona a Pagina -->
+<meta http-equiv="refresh" content="<delay-segundo>; URL='<pagina>'">`
 ),
 ]

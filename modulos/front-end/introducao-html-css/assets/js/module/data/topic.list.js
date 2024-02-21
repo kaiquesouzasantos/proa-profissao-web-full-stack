@@ -121,13 +121,32 @@ new Topic(
     `
     <p>Os metadados são “dados sobre dados”, utilizados para encontrar e descobrir recursos. Por meio da ferramenta, é possível descrever páginas web e componentes acessíveis presentes nelas, além de associar versões alternativas de conteúdos.</p>
     `, 
-    `<meta charset="UTF-8">
-<meta name="keywords" content="HTML, CSS, JavaScript">
-<meta name="description" content="Free Web tutorials">
-<meta name="author" content="Kaique">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    `<meta charset="UTF-8"> 
     
-<!-- Uso Ocasional, Redireciona a Pagina -->
+<meta name="keywords" content="HTML, CSS, JavaScript"> 
+<meta name="description" content="Free Web tutorials"> 
+<meta name="author" content="Kaique"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="refresh" content="<delay-segundo>">
 <meta http-equiv="refresh" content="<delay-segundo>; URL='<pagina>'">`
+),
+new Topic(
+    "Destaque de Texto", 
+    `
+    <p>Os componentes de textos podem ser diferenciados a partir de tags complementares, onde podem se distinguir conforme a finalidade e exibição em mecanismos de pesquisa (SEO).</p>
+    `, 
+    `<!--  Define um texto enfatizado/importante para o SEO, geralmente exibido em itálico. -->
+<p><em>TEXTO-ITALICO</em></p> 
+
+<!-- Define texto em itálico, geralmente usado para ênfase leve. -->
+<p><i>TEXTO-ITALICO</i></p> 
+
+<!--  Define um texto fortemente enfatizado/importante para o SEO, geralmente exibido em negrito. -->
+<p><strong>TEXTO-NEGRITO</strong></p>
+
+<!--  Define um texto em negrito. -->
+<p><b>TEXTO-NEGRITO</b></p>` 
 ),
 ]

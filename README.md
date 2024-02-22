@@ -18,6 +18,7 @@
   - [Introdução ao HTML e CSS](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/introducao-html-css)
   - Projetos
     - [Cidades Mais Populosas do Brasil](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/cidades-populosas)
+    - [Curso de Web Design](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/curso-web-design)
 - **Lógica de Programação**
   - [VisuAlg]() 
   - [Javascript]()

@@ -1,0 +1,290 @@
+/* Inicializacao */
+:root {
+    --color-primary: #ff7200;
+    --color-secundary: #1d1c1c;
+    --color-font: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif ;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, #000, rgba(0,0,0,0.5)90%), url('https://images.unsplash.com/photo-1593720213428-28a5b9e94613?q=80&w=1000&auto=form-loginat&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Navegacao - Menu */
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: var(--color-primary);
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--color-font);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: var(--color-primary);
+}
+
+/* Barra de Pesquisa */
+.search {
+    width: 400px;
+    float: right;
+    position: relative;
+    right: -30px;
+}
+
+.input-search {
+    width: 240px;
+    height: 40px;
+    border: 1px solid var(--color-primary);
+    margin-top: 13px;
+    color: var(--color-secundary);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.input-search::-webkit-search-cancel-button {
+    display: none;
+}
+
+.button-send-form-login, .button-search {
+    width: 100px;
+    height: 40px;
+    background: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    margin-top: 13px;
+    color: var(--color-font);
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.button-send-form-login:hover {
+    color: var(--color-font);
+}
+
+.button-send-form-login:focus, .input-search:focus {
+    outline: none;
+}
+
+/* Home */
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: var(--color-font);
+    position: relative;
+}
+
+.content .text-home {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-align: justify;
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .button-subscribe {
+    width: 160px;
+    height: 40px;
+    background: var(--color-primary);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .button-subscribe a {
+    text-decoration: none;
+    color: var(--color-font);
+    transition: .3s ease;
+}
+
+.button-subscribe:hover {
+    background-color: var(--color-secundary);
+}
+
+.content span {
+    color: var(--color-primary);
+    font-size: 65px
+}
+
+/* Formulario */
+.form-login {
+    width: 300px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)10%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 830px;
+    transform: translate(0%,-5%);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid var(--color-primary);
+}
+
+.form-login h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 22px;
+    background-color: var(--color-font);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form-login input {
+    width: 260px;
+    height: 25px;
+    border-bottom: 2px solid var(--color-primary);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: var(--color-secundary);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-login input:focus {
+    outline: none;
+    border: 3px solid var(--color-primary);
+}
+
+.form-login input::placeholder {
+    color: var(--color-secundary);
+}
+
+.button-send-form-login {
+    position: relative;
+    width: 280px;
+    height: 40px;
+    background: var(--color-primary);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.button-send-form-login a {
+    text-decoration: none;
+    color: var(--color-font);
+    font-weight: bold;
+}
+
+.button-send-form-login:hover {
+    background: var(--color-secundary);
+}
+
+.button-send-form-login a:hover {
+    color: var(--color-font);
+}
+
+.form-login .link {
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form-login .link a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+.div-register {
+    margin-top: 15px;
+}
+
+/* Redes Sociais */
+.icons {
+    margin-top: 50px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: var(--color-font);
+}
+
+.icons ion-icon {
+    color: var(--color-font);
+    font-size: 20px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: var(--color-primary);
+}

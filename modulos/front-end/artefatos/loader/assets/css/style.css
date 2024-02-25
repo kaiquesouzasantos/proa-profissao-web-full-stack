@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+/*
+transform: 
+  - Essa propriedade CSS é utilizada para aplicar transformações em elementos HTML, como rotação, escala, translação, entre outras.
+
+rotate(): 
+  - É uma função de transformação que especifica uma rotação para o elemento. Neste caso, está sendo utilizada para rotacionar o elemento.
+
+calc(): 
+  - É uma função CSS que realiza cálculos matemáticos. Aqui está sendo utilizada para calcular o valor da rotação com base no valor da variável --i.
+
+(360deg / 15): 
+  - Aqui está sendo calculado o ângulo de rotação para cada unidade de --i. Como --i é esperado variar de 0 a 14, isso significa que cada incremento de --i resultará em um aumento de 24 graus na rotação (360/15 = 24).
+
+translateY(35px): 
+  - Esta função de transformação move o elemento ao longo do eixo Y. Neste caso, está movendo o elemento 35 pixels para baixo.
+*/
+.dots span {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background: #fff;
+  border-radius: 30%;
+  transform: rotate(calc(var(--i) * (360deg / 15))) translateY(35px);
+  animation: animate 1.5s linear infinite;
+  animation-delay: calc(var(--i) * 0.1s);
+  opacity: 0;
+}
+
+/* 
+animation: 
+  - Esta propriedade CSS é utilizada para aplicar uma animação a um elemento HTML.
+animate: 
+  - É o nome da animação que será aplicada. É esperado que exista uma definição de animação chamada @keyframes animate em algum lugar no código.
+1.5s: 
+  - É a duração da animação, neste caso, 1.5 segundos.
+linear: 
+  - É a função de tempo utilizada para a animação. Neste caso, a animação progride linearmente.
+infinite: 
+  - Indica que a animação deve repetir infinitamente.
+*/
+@keyframes animate {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

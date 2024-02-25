@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kaique Souza Santos">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="Tela contendo formulario de cadastro responsivo.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>PROAPROFISSAO | Formulario Responsivo</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <main class="container">
+        <h1>Registration Form</h1>
+
+        <form action="#">
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter full name" minlength="6" required/>
+            </div>
+
+            <div class="input-box">
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter email address" minlength="10" required/>
+            </div>
+
+            <div class="column">
+                <div class="input-box">
+                    <label>Phone Number</label>
+                    <input type="text" placeholder="Enter phone number" minlength="8" required/>
+                </div>
+
+                <div class="input-box">
+                    <label>Birth Date</label>
+                    <input type="date" placeholder="Enter birth date" required/>
+                </div>
+            </div>
+
+            <div class="gender-box">
+                <h3>Gender</h3>
+
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-male" name="gender" checked/>
+                        <label for="check-male">male</label>
+                    </div>
+
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender"/>
+                        <label for="check-female">Female</label>
+                    </div>
+
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender"/>
+                        <label for="check-other">prefer not to say</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-box address">
+                <label>Address</label>
+
+                <input type="text" placeholder="Enter street address" minlength="10" required/>
+                <input type="text" placeholder="Enter street address line 2" minlength="10"/>
+
+                <div class="column">
+                    <select class="select-box">
+                        <option hidden>Country</option>
+                        <option>America</option>
+                        <option>Japan</option>
+                        <option>India</option>
+                        <option>Nepal</option>
+                    </select>
+
+                    <input type="text" placeholder="Enter your city" minlength="3" required/>
+                </div>
+
+                <div class="column">
+                    <input type="text" placeholder="Enter your region" minlength="2" required/>
+                    <input type="text" placeholder="Enter postal code" minlength="5" required/>
+                </div>
+            </div>
+
+            <button class="button-submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

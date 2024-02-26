@@ -14,17 +14,32 @@
 
 - **Interfaces, UI/UX**
   - [Prototipação com Figma](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/interface-ui-ux/figma)
+
 - **Front-End**
   - [Introdução ao HTML e CSS](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/introducao-html-css)
+  
   - Projetos
     - [Cidades Mais Populosas do Brasil](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/cidades-populosas)
     - [Curso de Web Design](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/curso-web-design)
+    - [Coca Cola](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/coca-cola)
+    - [Amazon Prime Video](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/prime-video)
+    - [Loja de Tenis - Dev Sport](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/dev-sport-loja-tenis)
+
+  - Artefatos
+    - [Popoup](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/popoup)
+    - [Footer Responsivo](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/footer-responsive)
+    - [Formulario Animado](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/form-animated)
+    - [Formulario Responsivo](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/dev-sport-loja-tenis)
+    - [Tela Carregamento](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/loader)
+
 - **Lógica de Programação**
   - [VisuAlg]() 
   - [Javascript]()
   - [Java]()
+
 - **Banco de Dados com MySQL**
   - [Pizzaria]() 
+
 - **DemoDay**
 
 #

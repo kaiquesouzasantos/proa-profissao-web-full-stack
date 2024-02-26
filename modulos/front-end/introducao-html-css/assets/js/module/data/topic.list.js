@@ -149,4 +149,115 @@ new Topic(
 <!--  Define um texto em negrito. -->
 <p><b>TEXTO-NEGRITO</b></p>` 
 ),
+new Topic(
+    "Tabela", 
+    `<p>O elemento representa dados tabulares — isto é, informações apresentadas em uma tabela bidimensional composta por linhas e colunas de células contendo dados.</p>
+<table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Cidade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>João</td>
+        <td>25</td>
+        <td>São Paulo</td>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td>30</td>
+        <td>Rio de Janeiro</td>
+      </tr>
+      <tr>
+        <td>Carlos</td>
+        <td>22</td>
+        <td>Brasília</td>
+      </tr>
+    </tbody>
+  </table>
+  <style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  th {
+    background-color: #ddd;
+    color: #222;
+  }
+</style>
+    `, 
+    `<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>João</td>
+            <td>25</td>
+            <td>São Paulo</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>30</td>
+            <td>Rio de Janeiro</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>22</td>
+            <td>Brasília</td>
+        </tr>
+    </tbody>
+</table>` 
+),
+new Topic(
+    "Listas", 
+    `
+    <p><b>Ordenada</b></p>
+    <ul>
+        <li>Ler um livro</li>
+        <li>Fazer exercícios físicos</li>
+    </ul>
+    
+    <p><b>Desordenada</b></p>
+    <ol>
+        <li>Estudar programação</li>
+        <li>Ir ao supermercado</li>
+    </ol>
+    
+    <p><b>Definicao</b></p>
+    <dl>
+        <dt>Algoritmo</dt>
+        <dd>Sequência finita de instruções, utilizadas a fim de resolver um problema.</dd>
+    </dl>    `, 
+    `<!-- Nao Ordenada -->
+<ul>
+    <li>Ler um livro</li>
+    <li>Fazer exercícios físicos</li>
+</ul>
+    
+<!-- Nao Ordenada -->
+<ol>
+    <li>Estudar programação</li>
+    <li>Ir ao supermercado</li>
+</ol>
+    
+<!-- Definicao -->
+<dl>
+    <dt>Algoritmo</dt>
+    <dd>Sequência finita de instruções, utilizadas a fim de resolver um problema.</dd>
+</dl>` 
+),
 ]

@@ -23,6 +23,8 @@
     - [Coca Cola](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/coca-cola)
     - [Amazon Prime Video](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/prime-video)
     - [Loja de Tenis - Dev Sport](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/dev-sport-loja-tenis)
+    - [Exibicao de Tenis](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/dev-sport-loja-tenis)
+    - [Landing Page de Motocicleta](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/landing-page-motocicleta)
   - Artefatos
     - [Popoup](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/popoup)
     - [Footer Responsivo](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/footer-responsive)

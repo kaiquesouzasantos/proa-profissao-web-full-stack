@@ -254,10 +254,21 @@ new Topic(
     <li>Ir ao supermercado</li>
 </ol>
     
-<!-- Definicao -->
+<!-- Definição -->
 <dl>
     <dt>Algoritmo</dt>
     <dd>Sequência finita de instruções, utilizadas a fim de resolver um problema.</dd>
 </dl>` 
+),
+new Topic(
+    "Formulário", 
+    `
+    <p>Um formulário da web, formulário da web ou formulário HTML em uma página da web permite que um usuário insira dados que são enviados a um servidor para processamento.</p>
+    `, 
+    `<form method="" action="">
+    <input class="" type="text" name="" id="" placeholder="">
+    <textarea class="" type="text" name="" id="" placeholder=""></textarea>
+    <button><input class="" type="submit" value="Login"></button>
+</form>`  
 ),
 ]

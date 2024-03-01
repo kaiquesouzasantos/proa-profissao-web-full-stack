@@ -25,6 +25,8 @@
     - [Loja de Tenis - Dev Sport](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/dev-sport-loja-tenis)
     - [Exibicao de Tenis](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/dev-sport-loja-tenis)
     - [Landing Page de Motocicleta](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/landing-page-motocicleta)
+    - [Landing Page de Academia](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/landing-page-academia)
+    - [Landing Page de Loja de Moveis](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/landing-page-moveis)
   - Artefatos
     - [Popoup](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/popoup)
     - [Footer Responsivo](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/footer-responsive)

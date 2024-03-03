@@ -2,7 +2,7 @@
 @import url("https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css");
 
 :root {
-  --primary-color: #56070c;
+  --primary-color: #4B664F;
   --text-dark: #242424;
   --text-light: #e2e8f0;
   --white: #ffffff;
@@ -40,6 +40,7 @@ a {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--white);
 }
 
 nav {
@@ -185,14 +186,14 @@ nav {
 .benefits-content h4 {
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: var(--primary-color);
   margin-bottom: 1rem;
 }
 
 .benefits-content p {
   font-size: 1rem;
   line-height: 1.75rem;
-  color: var(--primary-color);
+  color: var(--text-dark);
   text-align: justify;
 }
 
@@ -210,7 +211,7 @@ nav {
 .experience-description {
   margin-top: 2rem;
   font-size: 1rem;
-  color: var(--primary-color);
+  color: var(--text-dark);
   text-align: justify;
 }
 
@@ -231,7 +232,7 @@ nav {
 .experience-col p {
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--primary-color);
+  color: var(--text-dark);
 }
 
 .experience-content button {
@@ -282,12 +283,12 @@ nav {
 .process-grid h4 {
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: var(--primary-color);
 }
 
 .process-grid p {
   margin-bottom: 2rem;
-  color: var(--primary-color);
+  color: var(--text-dark);
   text-align: justify;
 }
 
@@ -390,7 +391,7 @@ nav {
 }
 
 .subscribe-description {
-  color: var(--primary-color);
+  color: var(--text-dark);
   text-align: center;
 }
 
@@ -404,7 +405,7 @@ nav {
   display: flex;
   align-items: center;
   background-color: var(--white);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .subscribe-container input {

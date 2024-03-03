@@ -1,26 +1,18 @@
-ScrollReveal().reveal('.animation-right', {
-    delay: 200,
-    distance: '150px',
-    origin: 'right',
-    easing: 'ease-in-out',
-    interval: 500,
-    reset: true
-});
+const scroll = ScrollReveal()
 
-ScrollReveal().reveal('.animation-left', {
-    delay: 200,
-    distance: '150px',
-    origin: 'left',
-    easing: 'ease-in-out',
-    interval: 500,
-    reset: true
-});
+function factoryAnimated(reference, delay, origin) {
+    scroll.reveal(
+        reference, {
+            delay: delay,
+            distance: '300px',
+            origin: origin,
+            easing: 'ease-in-out',
+            interval: 500,
+            reset: true
+        }
+    )
+}
 
-ScrollReveal().reveal('.animation-bottom', {
-    delay: 200,
-    distance: '150px',
-    origin: 'bottom',
-    easing: 'ease-in-out',
-    interval: 500,
-    reset: true
-});
+factoryAnimated('.animation-right', 200, 'right')
+factoryAnimated('.animation-left', 200, 'left')
+factoryAnimated('.animation-bottom', 500, 'bottom')

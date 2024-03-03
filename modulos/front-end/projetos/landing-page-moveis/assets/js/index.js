@@ -7,6 +7,7 @@ function factoryAnimated(reference, delay, origin) {
             distance: '300px',
             origin: origin,
             easing: 'ease-in-out',
+            duration: 1000,
             interval: 500,
             reset: true
         }

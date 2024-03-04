@@ -9,10 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="../assets/css/styles.css">
-    <title>Dev.Sport</title>
+    <title>PROAPROFISSAO | Dev.Sport</title>
 </head>
 
 <body id="index">
@@ -27,10 +26,10 @@
 
             <div class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#home" class="nav__link active-link">Home</a></li>
-                    <li class="nav-item"><a href="#sobre" class="nav__link">Sobre</a></li>
-                    <li class="nav-item"><a href="#produto" class="nav__link">Calçados</a></li>
-                    <li class="nav-item"><a href="#contato" class="nav__link">Contato</a></li>
+                    <li class="nav-item"><a href="#home" class="nav-link active-link">Home</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#products" class="nav-link">Calçados</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
 
                     <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
                 </ul>
@@ -85,19 +84,13 @@
         </section>
 
         <!--========== calçados ==========-->
-        <section class="products section bd-container" id="produto">
+        <section class="products section bd-container" id="products">
             <h2 class="section-title">Calçados</h2>
 
             <input type="text" class="search" placeholder="O que procura?">
 
-            <center>
-                <div class="progress" id="progress">
-                    <div class="progress-bar">
-                    </div>
-                </div>
-            </center>
-
             <ul class="products-container bd-grid lista" id="product-exhibition">
+                
             </ul>
         </section>
 
@@ -109,20 +102,19 @@
 
                     <form action="https://api.staticforms.xyz/submit" method="post">
                         <input type="hidden" name="accessKey" value="f02ab4ca-351e-4ae3-9e1e-c35ee22e36c9">
-                        <!-- Requerimento -->
+
                         <input type="hidden" name="redirectTo" value="https://github.com/kaiquesouzasantos">
-                        <!-- Constancia -->
                         <input type="text" name="honeypot" style="display: none;"> <!-- Proteção de Spam -->
                         <div class="contact-input input">
-                            <input type="text" name="$Nome" placeholder="Nome" class="contInput" required>
+                            <input type="text" name="$Nome" placeholder="Nome" class="contact-input" required>
                             <span class="error"></span>
                         </div>
                         <div class="contact-input input">
-                            <input type="text" name="$E-mail" placeholder="E-mail" class="contInput" required>
+                            <input type="text" name="$E-mail" placeholder="E-mail" class="contact-input" required>
                             <span class="error"></span>
                         </div>
                         <div class="contact-label">
-                            <textarea type="text" name="$Mensagem" placeholder="Mensagem" class="contInput1"
+                            <textarea type="text" name="$Mensagem" placeholder="Mensagem" class="contact-input-different"
                                 required></textarea>
                             <span class="error"></span>
                         </div>
@@ -163,7 +155,7 @@
                 <ul>
                     <li><a href="index.html#home" class="footer-link">Home</a></li>
                     <li><a href="index.html#sobre" class="footer-link">Sobre</a></li>
-                    <li><a href="index.html#produto" class="footer-link">Calçados</a></li>
+                    <li><a href="index.html#productuto" class="footer-link">Calçados</a></li>
                     <li><a href="index.html#contato" class="footer-link">Contato</a></li>
                 </ul>
             </div>

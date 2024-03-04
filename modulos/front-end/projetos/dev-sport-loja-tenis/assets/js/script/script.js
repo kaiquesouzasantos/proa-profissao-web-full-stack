@@ -11,7 +11,7 @@ const showMenu = (toggleId, navId) => {
 
 showMenu('nav-toggle', 'nav-menu')
 
-const navLink = document.querySelectorAll('.nav__link')
+const navLink = document.querySelectorAll('.nav-link')
 
 function linkAction() {
     const navMenu = document.getElementById('nav-menu')
@@ -228,6 +228,6 @@ document.getElementById("contato")?.addEventListener("submit", () => {
     Notification.alertaAtivacao("Contato realizado com sucesso! Em breve retornaremos, muito obrigado.")
 })
 
-document.getElementById("prodBuy")?.addEventListener("click", () => {
+document.getElementById("product-buy")?.addEventListener("click", () => {
     Notification.alertaAtivacao("TESTE")
 })

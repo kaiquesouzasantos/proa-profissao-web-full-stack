@@ -46,15 +46,14 @@
   white-space: nowrap;
   font-weight: bold;
   font-size: 1rem;
-  color: var(--white);
-  background-color: var(--primary-color);
-  border-radius: 5px;
+  color: var(--primary-color);
+  background-color: var(--white);
   transition: 0.3s;
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: var(--primary-color-dark);
+  color: var(--primary-color-dark);
 }
 
 .logo a {

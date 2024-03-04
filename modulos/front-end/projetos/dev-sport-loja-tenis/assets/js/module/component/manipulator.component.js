@@ -6,8 +6,4 @@ export class Manipulator {
     static showProductDetailed(product) { 
         document.getElementById("product-container").innerHTML = product
     }
-
-    static stopProgressBar() {
-        document.getElementById("progress").style.display = "none"
-    }
 }

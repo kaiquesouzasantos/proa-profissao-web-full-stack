@@ -324,12 +324,47 @@ img {
 /*========== home ==========*/
 .home-container {
   row-gap: .5rem;
-  text-align: center;
-  margin: 0 20%;
+}
+
+.home-content p {
+  text-align: justify;
+}
+
+.home-content button {
+  border: none;
+  width: 50%;
+  height: 40px;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+.home-division-image {
+  position: relative;
+  display: inline-block;
+}
+
+.home-circle {
+  width: 300px;
+  height: 300px;
+  background-color: var(--button-color);
+  border-radius: 50%;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  margin: auto;
+}
+
+.home-division-image img {
+  position: absolute;
+  top: -150px;
+  display: block;
+  width: 1000px;
+  z-index: 2;
 }
 
 .home-title {
-  font-size: var(--biggest-font-size);
+  font-size: 43px;
+  letter-spacing: 3px;
   font-weight: var(--font-bold);
   margin-bottom: var(--mb-2);
 }
@@ -582,6 +617,7 @@ img {
   margin-left: 10px;
   font-size: 16px;
   color: var(--search-color);
+  background-color: transparent;
 }
 
 .search input::placeholder {

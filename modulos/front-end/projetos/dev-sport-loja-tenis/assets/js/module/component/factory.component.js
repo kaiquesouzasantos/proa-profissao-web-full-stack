@@ -2,7 +2,7 @@ export class Factory {
     static constructProductDetailed(product) {
         return `
         <div class="product-image-detailed" id="imagem">
-            <img src="../assets/img/${product.imagem}">
+            <img src="../assets/img/shoes/${product.imagem}">
         </div>
 
         <div class="about-content" id="info">
@@ -29,7 +29,7 @@ export class Factory {
     static constructProductExhibition(product) {
         return `
         <li class="product-content" nome="${product.nome}">
-            <img src="../assets/img/${product.imagem}" class="product-image">
+            <img src="../assets/img/shoes/${product.imagem}" class="product-image">
             <h3 class="product-title">${product.titulo}</h3>
             <span class="product-category">${product.categoria}</span>
             <span class="product-preco">${product.preco}</span>

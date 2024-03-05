@@ -493,6 +493,12 @@ img {
   border-color: #C42130;
 }
 
+.return-button {
+  position: relative;
+  top: 70px;
+  left: 20px;
+}
+
 /*========== calçados ==========*/
 .products-container,
 .accessory-container {
@@ -550,8 +556,9 @@ img {
 }
 
 .search {
+  display: flex;
+  justify-content: space-between;
   background-color: transparent;
-  color: var(--search-color);
   border: 2px solid var(--search-color);
   outline: none;
   padding: 10px;
@@ -561,10 +568,23 @@ img {
   position: relative;
   left: 13%;
   margin: 0 5% 5% 0;
-  font-size: 14px;
 }
 
-.search::placeholder {
+.search img {
+  width: 20px;
+}
+
+.search input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-size: 16px;
+  color: var(--search-color);
+}
+
+.search input::placeholder {
   color: var(--search-color);
 }
 
@@ -576,7 +596,7 @@ img {
   width: 100%;
 }
 
-.product-image-detailed img{
+.product-image-detailed img {
   position: relative;
   top: 0;
   left: -130px;

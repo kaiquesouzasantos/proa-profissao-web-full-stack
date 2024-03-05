@@ -18,6 +18,7 @@
   --button-prod: #5b5757;
   --button-color: #5b5757;
   --search-color: #5B5757;
+  --contact-color: #C42130;
 
   /*========== tipografia ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -70,11 +71,12 @@ body.dark-theme {
   --first-color-send: #161212;
   --title-color: #F3F1F1;
   --text-color: #D1C7C8;
-  --body-color: #070707;
-  --container-color: #131313;
+  --body-color: #111010;
+  --container-color: #181818;
   --button-prod: #D1C7C8;
   --button-color: #D1C7C8;
   --search-color: #FFF;
+  --contact-color: #181818;
 }
 
 .change-theme {
@@ -642,9 +644,12 @@ img {
 
 /*========== contato ==========*/
 .contact {
-  background-color: var(--first-color-send);
   margin: 0 20%;
   border-radius: 10px;
+}
+
+.contact-container {
+  background-color: var(--contact-color);
 }
 
 .contact-title,
@@ -917,7 +922,6 @@ img {
   }
 
   .contact-container {
-    background-color: var(--first-color-send);
     padding: 2rem;
     border-radius: 1.5rem;
   }

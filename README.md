@@ -36,6 +36,7 @@
     - [Sobreposicao](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/overlay)
     - [Efeito Parallax](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/parallax)
     - [Efeito Parallax Expansivo](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/paralax-expansivo)
+    - [Carrossel com Swiper JS](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/carrossel-com-js)
 
 - **Lógica de Programação**
   - [VisuAlg]() 

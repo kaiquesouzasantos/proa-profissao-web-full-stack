@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
+
+:root {
+    --primary-color: #8C17E0;
+    --secundary-color: #6A3C8B;
+    --text-color: #222;
+    --body-color: #EFEFEF;
+    --default-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--body-color);
+}
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.slide-content {
+    margin: 0 40px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.card {
+    border-radius: 25px;
+    background: var(--default-color);
+    box-shadow: 4px 4px 8px rgb(106, 60, 139, 0.6);
+}
+
+.image-content, .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px 25px 0 25px;
+    background-color: var(--primary-color);
+}
+
+.overlay::before, .overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--primary-color);
+}
+
+.overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: var(--default-color);
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: var(--default-color);
+    padding: 3px;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--primary-color);
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.description {
+    font-size: 14px;
+    color: var(--text-color);
+    text-align: justify;
+    margin: 10px;
+}
+
+.button {
+    border: none;
+    font-size: 16px;
+    color: var(--default-color);
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.button:hover {
+    background: var(--secundary-color);
+}
+
+.swiper-button {
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.swiper-button:hover {
+    color: var(--secundary-color);
+}
+
+.swiper-button::after, .swiper-button::before {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--primary-color);
+    opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--secundary-color);
+    opacity: 1;
+}

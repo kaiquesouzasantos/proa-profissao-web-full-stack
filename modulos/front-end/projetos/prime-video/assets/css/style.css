@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,19 +10,20 @@
     text-decoration: none;
 }
 
-main {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 50em;
-}
-
 body {
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    max-width: 50em;
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Header */
@@ -45,7 +47,7 @@ header {
     align-items: flex-start;
     margin-left: 2.5em;
     position: relative;
-    top: -80px;
+    top: 15px;
 }
 
 .img-serie {
@@ -170,4 +172,28 @@ header {
 .info-option {
     width: 2em;
     filter: invert(1);
+}
+
+/* Catalog */
+.outher-series {
+    position: relative;
+    left: 2.5em;
+    top: 40px;
+    width: 1320px;
+    bottom: 30px;
+}
+
+.series-content {
+    display: flex;
+    position: relative;
+}
+
+.serie img {
+    width: 220px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    flex-shrink: 1;
 }

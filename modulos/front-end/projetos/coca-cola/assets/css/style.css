@@ -59,6 +59,7 @@ header {
 .navegation ul {
     position: relative;
     display: flex;
+    justify-content: space-between;
 }
 
 .navegation li {
@@ -71,7 +72,7 @@ header {
     font-weight: 500;
     text-decoration: none;
     font-size: 19px;
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 .navegation li a:hover {
@@ -171,21 +172,21 @@ header {
 }
 
 .div-images img {
-    width: 130px;
+    width: 145px;
 }
 
 #image-01 {
-    transform: rotate(-15deg)
+    transform: rotate(-15deg);
 }
 
 #image-02 {
-    transform: rotate(5deg)
+    transform: rotate(5deg);
 }
 
 #image-03 {
-    transform: rotate(15deg)
+    transform: rotate(15deg);
 }
 
 #image-04 {
-    transform: rotate(-15deg)
+    transform: rotate(-15deg);
 }

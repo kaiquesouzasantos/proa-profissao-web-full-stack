@@ -21,9 +21,6 @@ main {
     height: 100vh;
     max-width: 50em;
     margin-top: 1.5em;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 /* Header */
@@ -35,8 +32,9 @@ header {
 
 .logo-company {
     width: 80px;
-    position:relative;
-    top: 10px;
+    position:fixed;
+    right: 20px;
+    top: 20px;
 }
 
 

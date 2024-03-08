@@ -20,7 +20,8 @@
   - Projetos
     - [Cidades Mais Populosas do Brasil](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/cidades-populosas)
     - [Curso de Web Design](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/curso-web-design)
-    - [Coca Cola](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/coca-cola)
+    - [Coca-Cola](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/coca-cola)
+    - [Homepage da Coca-Cola Zero](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/homepage-coca-cola-zero)
     - [Amazon Prime Video](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/prime-video)
     - [Loja de Tenis - Dev Sport](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/dev-sport-loja-tenis)
     - [Landing Page de Motocicleta](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/landing-page-motocicleta)

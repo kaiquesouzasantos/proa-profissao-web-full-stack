@@ -51,6 +51,11 @@
 - **DemoDay**
 
 #
+## LIVROS
+
+- [Algoritmos em Java - Manzano](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/livros/Algoritmos-Manzano)
+
+#
 ### TECNOLOGIAS
 
 ![HTML](https://img.shields.io/badge/HTML-0D1117?style=for-the-badge&logo=html5&labelColor=0D1117)&nbsp;

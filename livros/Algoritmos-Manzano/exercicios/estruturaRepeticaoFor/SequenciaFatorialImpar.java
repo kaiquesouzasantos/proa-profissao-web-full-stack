@@ -17,7 +17,6 @@ public class SequenciaFatorialImpar {
 
         for (;numero >= 1; numero--) {
             saida *= numero;
-            numero--;
         }
 
         return saida;

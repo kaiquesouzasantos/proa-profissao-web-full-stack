@@ -535,6 +535,7 @@ img {
   position: relative;
   top: 70px;
   left: 20px;
+  z-index: 1;
 }
 
 /*========== calçados ==========*/
@@ -638,7 +639,7 @@ img {
 .product-image-detailed img {
   position: relative;
   top: 0;
-  left: -130px;
+  left: 0;
   min-height: auto;
   min-width: 400px;
 }
@@ -978,7 +979,7 @@ img {
 
   .product-image-detailed {
     position: relative;
-    left: 20%;
+    left: -15%;
     max-width: 250px;
     max-height: 250px;
     width: auto;

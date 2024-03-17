@@ -25,13 +25,15 @@ body {
 header {
   width: 100%;
   margin: auto;
-  padding: 1rem 4rem;
+  margin-top: -20px;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
+  padding: 1rem 4rem;
   gap: 1rem;
   background-color: var(--extra-light);
+  box-shadow: 0 0 2px var(--text-dark);
   z-index: 1;
 }
 
@@ -60,6 +62,7 @@ header {
 .section-container {
   max-width: var(--max-width);
   margin: auto;
+  margin-top: 20px;
   padding: 2rem 1rem;
 }
 
@@ -124,7 +127,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
 }
 
 .evolution-nav a {
@@ -148,7 +150,7 @@ a {
 
 .evolution-nav img {
   max-width: auto;
-  height: 600px;
+  height: 700px;
   object-fit: cover;
 }
 
@@ -238,6 +240,15 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+}
+
+.gallery-col img {
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery-col img:hover {
+  transform: scale(1.14);
+  box-shadow: 0 0 20px var(--text-dark);
 }
 
 .gallery-col:nth-child(2) {

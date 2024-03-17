@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kaique Souza Santos">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="Tela de login contendo animacoes.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>PROAPROFISSAO | Bootstrap</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+    <header id="header">
+            <nav class="navbar navbar-expand-lg navbar-light container">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/img.png" class="imagem">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Inicial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="quem-somos.html">Quem Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nossa-equipe.html">Nossa Equipe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="area-atuacao.html">Área de Atuação</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contato.html">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Contato</h2>
+
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputname" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="inputname">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputsobrenome" class="form-label">Sobrenome</label>
+                    <input type="text" class="form-control" id="inputsobrenome">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Endereço</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Rua Mar Azul, 99">
+                </div>
+                <div class="col-6">
+                    <label for="inputbairro" class="form-label">Bairro</label>
+                    <input type="text" class="form-control" id="inputbairro">
+                </div>
+                <div class="col-6">
+                    <label for="inputcomplemento" class="form-label">Complemento</label>
+                    <input type="text" class="form-control" id="inputcomplemento" placeholder="Casa 2 - AP 01 - BL 02">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputestado" class="form-label">Estado</label>
+                    <select id="inputestado" class="form-select">
+                        <option selected>Escolha</option>
+                        <OPTION VALUE="AC">AC </OPTION>
+                        <OPTION VALUE="AL">AL </OPTION>
+                        <OPTION VALUE="AP">AP </OPTION>
+                        <OPTION VALUE="AM">AM </OPTION>
+                        <OPTION VALUE="BA">BA </OPTION>
+                        <OPTION VALUE="CE">CE </OPTION>
+                        <OPTION VALUE="DF">DF </OPTION>
+                        <OPTION VALUE="ES">ES </OPTION>
+                        <OPTION VALUE="GO">GO </OPTION>
+                        <OPTION VALUE="MA">MA </OPTION>
+                        <OPTION VALUE="MT">MT </OPTION>
+                        <OPTION VALUE="MS">MS </OPTION>
+                        <OPTION VALUE="MG">MG </OPTION>
+                        <OPTION VALUE="PA">PA </OPTION>
+                        <OPTION VALUE="PB">PB </OPTION>
+                        <OPTION VALUE="PR">PR </OPTION>
+                        <OPTION VALUE="PE">PE </OPTION>
+                        <OPTION VALUE="PI">PI </OPTION>
+                        <OPTION VALUE="RJ">RJ </OPTION>
+                        <OPTION VALUE="RN">RN </OPTION>
+                        <OPTION VALUE="RS">RS </OPTION>
+                        <OPTION VALUE="RO">RO </OPTION>
+                        <OPTION VALUE="RR">RR </OPTION>
+                        <OPTION VALUE="SC">SC </OPTION>
+                        <OPTION VALUE="SP">SP </OPTION>
+                        <OPTION VALUE="SE">SE </OPTION>
+                        <OPTION VALUE="TO">TO </OPTION>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputcep" class="form-label">CEP</label>
+                    <input type="text" class="form-control" id="inputcep">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">Receber Newslater</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary submit">Cadastrar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="pt-4 footer">
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="imagem mb-2" src="assets/img/img.png">
+                    <small class="d-block mb-3 tect-muted">&copy;Kaique Souza Santos - 2024</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Empresa</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="index.html">Inicio</a></li>
+                        <li><a class="text-muted" href="quem-somos.html">Quem Somos</a></li>
+                        <li><a class="text-muted" href="nossaEquipe.html">Nossa Equipe</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Produtos</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="area-atuacao.html">Área de Atuação</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Contato</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="contato.html">Fale Conosco</a></li>
+                        <li><a class="text-muted" href="https://api.whatsapp.com/send?phone=5511910337911">WhatsApp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

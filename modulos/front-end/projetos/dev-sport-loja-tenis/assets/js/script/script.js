@@ -85,7 +85,7 @@ function cookies(functions) {
     if (!container || !save) return null;
 
     const localPref = JSON.parse(window.localStorage.getItem('cookie-preference'));
-    
+
     if (localPref) activateFunctions(localPref);
 
     function getFormPref() {
@@ -133,18 +133,16 @@ cookies({
     analytics,
 });
 
-pesquisa_input = document.querySelectorAll(".search");
+pesquisa_input = document.querySelector("[data-search]");
 
-for (i in pesquisa_input) {
-    pesquisa_input[i].onkeyup = function (e) {
-        reg = new RegExp(this.value.toLowerCase(), "g")
-        lis = this.parentElement.querySelector(".lista")
-
-        for (j of lis.children) {
-            if (!j.getAttribute("nome").match(reg))
-                j.style.display = "none"
-            else
-                j.removeAttribute("style")
-        }
+pesquisa_input.addEventListener("keyup", () => {
+    reg = new RegExp(pesquisa_input.value, "g")
+    lista = document.getElementById("product-exhibition")
+    
+    for (item of lista.children) {
+        if (!item.getAttribute("nome").match(reg))
+            item.style.display = "none"
+        else
+            item.removeAttribute("style")
     }
-}
+})

@@ -791,7 +791,6 @@ img {
 
 /*========== responsividade ==========*/
 @media screen and (max-width: 359px) {
-
   .product-image-detailed,
   .about-image {
     width: 100%;
@@ -803,7 +802,6 @@ img {
 }
 
 @media screen and (min-width: 576px) {
-
   .home-container,
   .product-container,
   .about-container,
@@ -811,7 +809,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
-
+  
   .home-container {
     padding: 5rem 0 0;
   }

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --color-primary: #3d0066;
+    --color-secundary: #6902ad;
+}
+
+body {
+    width: 100%;
+}
+
+#header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 1px #000;
+}
+
+.container-fluid {
+    background-color: #fff;
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: end;
+}
+
+.imagem{
+    max-width: 220px;
+    max-height: 65px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #000;
+    border-bottom: solid 2px transparent; 
+}
+
+.nav-link:hover{
+    color: var(--color-primary);
+    border-bottom: solid 2px #000; 
+}
+
+main {
+    margin-top: 100px;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container p {
+    margin-top: 30px;
+}
+
+.card {
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 7px var(--color-secundary);
+}
+
+.btn{
+    background-color: var(--color-primary);
+    border: none;
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: var(--color-secundary);
+}
+
+.container p {
+    text-align: justify;
+}
+
+.membros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.membros .card {
+    padding-left: 0;
+    width: 550px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.img-fluid {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.mt-12 {
+    margin-top: 30px;
+}
+
+.contato {
+    margin: 30px;
+}
+
+form {
+    border: solid 2px var(--color-secundary);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.submit {
+    background-color: var(--color-primary);
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.submit:hover{
+    background-color: var(--color-secundary);
+}
+
+footer {
+    background-color: var(--color-primary);
+    color: #fff;
+    margin-top: 40px;
+    padding: 10px;
+    width: 100%;
+}
+
+.text-muted {
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 15px;
+}

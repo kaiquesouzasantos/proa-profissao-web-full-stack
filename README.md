@@ -30,7 +30,7 @@
     - [Landing Page de Restaurante](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/landing-page-restaurante)
     - [Homepage da Foodie](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/homepage-foodie)
     - [Introducao ao Bootstrap](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/introduction-bootstrap)
-    - [Player Musuc](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/music-player)
+    - [Player Music](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/music-player)
     - [Website Responsivo](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/nodeprop)
 
   - Artefatos

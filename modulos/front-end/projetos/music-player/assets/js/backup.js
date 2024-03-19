@@ -45,7 +45,7 @@ const musicData = [{
   },
 ];
 
-const addEventOnElements = function (elements, eventType, callback) {
+const addEventOnElements = (elements, eventType, callback) => {
   for (let i = 0, len = elements.length; i < len; i++) {
     elements[i].addEventListener(eventType, callback);
   }
@@ -61,19 +61,19 @@ const playlist = document.querySelector("[data-music-list]");
 
 for (let i = 0, len = musicData.length; i < len; i++) {
   playlist.innerHTML += `
-    <li>
-      <button class="music-item ${i === 0 ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
-        <img src="${musicData[i].posterUrl}" width="800" height="800" alt="${musicData[i].title} Album Poster"
-          class="img-cover">
-  
-        <div class="item-icon">
-          <span class="material-symbols-rounded">
-            <i class='bx bx-play'></i>
-          </span>
-        </div>
-      </button>
-    </li>
-    `;
+  <li>
+    <button class="music-item ${i === 0 ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
+      <img src="${musicData[i].posterUrl}" width="800" height="800" alt="${musicData[i].title} Album Poster"
+        class="img-cover">
+
+      <div class="item-icon">
+        <span class="material-symbols-rounded">
+          <i class='bx bx-play'></i>
+        </span>
+      </div>
+    </button>
+  </li>
+  `;
 }
 
 /* PLAYLIST MODAL SIDEBAR TOGGLE */
@@ -82,7 +82,7 @@ const playlistSideModal = document.querySelector("[data-playlist]");
 const playlistTogglers = document.querySelectorAll("[data-playlist-toggler]");
 const overlay = document.querySelector("[data-overlay]");
 
-const togglePlaylist = function () {
+const togglePlaylist = () => {
   playlistSideModal.classList.toggle("active");
   overlay.classList.toggle("active");
   document.body.classList.toggle("modalActive");
@@ -102,7 +102,7 @@ const playlistItems = document.querySelectorAll("[data-playlist-item]");
 let currentMusic = 0;
 let lastPlayedMusic = 0;
 
-const changePlaylistItem = function () {
+const changePlaylistItem = () => {
   playlistItems[lastPlayedMusic].classList.remove("playing");
   playlistItems[currentMusic].classList.add("playing");
 }
@@ -127,7 +127,7 @@ const playerArtist = document.querySelector("[data-artist]");
 
 const audioSource = new Audio(musicData[currentMusic].musicPath);
 
-const changePlayerInfo = function () {
+const changePlayerInfo = () => {
   playerBanner.src = musicData[currentMusic].posterUrl;
   playerBanner.setAttribute("alt", `${musicData[currentMusic].title} Album Poster`);
   document.body.style.backgroundImage = `url(${musicData[currentMusic].backgroundImage})`;
@@ -149,14 +149,14 @@ const playerDuration = document.querySelector("[data-duration]");
 const playerSeekRange = document.querySelector("[data-seek]");
 
 /** pass seconds and get timcode formate */
-const getTimecode = function (duration) {
+const getTimecode = (duration) => {
   const minutes = Math.floor(duration / 60);
   const seconds = Math.ceil(duration - (minutes * 60));
   const timecode = `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
   return timecode;
 }
 
-const updateDuration = function () {
+const updateDuration = () => {
   playerSeekRange.max = Math.ceil(audioSource.duration);
   playerDuration.textContent = getTimecode(Number(playerSeekRange.max));
 }
@@ -173,7 +173,7 @@ const playBtn = document.querySelector("[data-play-btn]");
 
 let playInterval;
 
-const playMusic = function () {
+const playMusic = () => {
   if (audioSource.paused) {
     audioSource.play();
     playBtn.classList.add("active");
@@ -192,7 +192,7 @@ playBtn.addEventListener("click", playMusic);
 
 const playerRunningTime = document.querySelector("[data-running-time");
 
-const updateRunningTime = function () {
+const updateRunningTime = () => {
   playerSeekRange.value = audioSource.currentTime;
   playerRunningTime.textContent = getTimecode(audioSource.currentTime);
 
@@ -209,11 +209,13 @@ const updateRunningTime = function () {
 const ranges = document.querySelectorAll("[data-range]");
 const rangeFill = document.querySelector("[data-range-fill]");
 
-const updateRangeFill = function () {
+const updateRangeFill = () => {
   let element = this || ranges[0];
 
-  const rangeValue = (element.value / element.max) * 100;
-  element.nextElementSibling.style.width = `${rangeValue}%`;
+  try {
+    const rangeValue = (element.value / element.max) * 100;
+    element.nextElementSibling.style.width = `${rangeValue}%`;
+  } catch(ignored) {}
 }
 
 addEventOnElements(ranges, "input", updateRangeFill);
@@ -224,7 +226,7 @@ addEventOnElements(ranges, "input", updateRangeFill);
  * seek music while changing player seek range
  */
 
-const seek = function () {
+const seek = () => {
   audioSource.currentTime = playerSeekRange.value;
   playerRunningTime.textContent = getTimecode(playerSeekRange.value);
 }
@@ -237,7 +239,7 @@ playerSeekRange.addEventListener("input", seek);
  * END MUSIC
  */
 
-const isMusicEnd = function () {
+const isMusicEnd = () => {
   if (audioSource.ended) {
     playBtn.classList.remove("active");
     audioSource.currentTime = 0;
@@ -255,7 +257,7 @@ const isMusicEnd = function () {
 
 const playerSkipNextBtn = document.querySelector("[data-skip-next]");
 
-const skipNext = function () {
+const skipNext = () => {
   lastPlayedMusic = currentMusic;
 
   if (isShuffled) {
@@ -278,7 +280,7 @@ playerSkipNextBtn.addEventListener("click", skipNext);
 
 const playerSkipPrevBtn = document.querySelector("[data-skip-prev]");
 
-const skipPrev = function () {
+const skipPrev = () => {
   lastPlayedMusic = currentMusic;
 
   if (isShuffled) {
@@ -322,10 +324,10 @@ const playerRepeatBtn = document.querySelector("[data-repeat]");
 const repeat = () => {
   if (!audioSource.loop) {
     audioSource.loop = true;
-    this.classList.add("active");
+    //playerRepeatBtn.classList.add("active");
   } else {
     audioSource.loop = false;
-    this.classList.remove("active");
+    //playerRepeatBtn.classList.remove("active");
   }
 }
 
@@ -358,7 +360,7 @@ playerVolumeRange.addEventListener("input", changeVolume);
 
 /**
  * MUTE MUSIC
- */
+*/
 
 const muteVolume = function () {
   if (!audioSource.muted) {

@@ -224,14 +224,13 @@ body:hover::-webkit-scrollbar-thumb {
 }
 
 .player {
-  --padding: 24px;
   background-image: var(--gradient);
-  padding: var(--padding);
-  padding-block-start: calc(64px + var(--padding));
+  padding: 24px;
+  padding-block-start: calc(64px + 24px);
   min-height: 100vh;
   display: flex;
   text-align: center;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(60px);
   overflow: hidden;
 }
 

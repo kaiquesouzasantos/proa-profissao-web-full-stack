@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-theme: #ffffff;
+}
+
+body.dark-theme {
+    --color-theme: #000000;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-theme);
+}
+
+[data-option-theme] {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}

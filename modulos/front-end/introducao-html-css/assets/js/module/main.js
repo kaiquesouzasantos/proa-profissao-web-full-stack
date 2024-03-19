@@ -2,6 +2,7 @@ import { Manipulator } from "./component/manipulator.component.js"
 import { TOPIC_LIST } from "./data/topic.list.js"
 
 import { Search } from "./behavior/search.behavior.js"
+import { Scroll } from "./behavior/scroll.behavior.js"
 
 import hljs from "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/es/highlight.min.js"
 
@@ -19,3 +20,8 @@ let search = document.getElementById("input-search")
 search.addEventListener("keyup", () => 
     Search.filter(search.value)
 )
+
+/* Icone de Rolagem */
+window.addEventListener("scroll", () => {
+    new Scroll(document.querySelector("[data-button-up]"), TOPIC_LIST[0].name).showButtonUp()
+})

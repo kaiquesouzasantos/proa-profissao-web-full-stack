@@ -49,19 +49,10 @@
     - [Experimento de Display Grid](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/grid-variado)
 
 - **Lógica de Programação**
-  - [VisuAlg]() 
-  - [Javascript]()
-  - [Java]()
-
-- **Banco de Dados com MySQL**
-  - [Pizzaria]() 
+  - [Algoritmos - Manzano](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-Manzano)
+  - [Algoritmos - FACCAT](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-FACCAT)
 
 - **DemoDay**
-
-#
-### LIVROS
-
-- [Algoritmos em Java - Manzano](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/livros/Algoritmos-Manzano)
 
 #
 ### TECNOLOGIAS

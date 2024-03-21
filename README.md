@@ -64,6 +64,18 @@
 ![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=0D1117)&nbsp;
 
 #
+### VISUALIZAÇÃO DE PROJETOS
+
+```
+kaiquesouzasantos-proa.kesug.com/front-end/<tipo>/<projeto>
+```
+
+Exemplo:
+
+```
+kaiquesouzasantos-proa.kesug.com/front-end/projetos/prime-video
+```
+#
 ### FERRAMENTAS
 
 ![Intellij](https://img.shields.io/badge/intellij-0D1117?style=for-the-badge&logo=intellij-idea&logoColor=white&labelColor=0D1117)&nbsp;

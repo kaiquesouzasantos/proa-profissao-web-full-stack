@@ -48,6 +48,10 @@
     - [Menu Responsivo](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/navigation-hamburguer)
     - [Transicao com Hover](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/hover-transition)
     - [Mudanca de Tema](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/change-theme)
+    - [Bootstrap - NavBar](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/navbar-bootstrap)
+    - [Bootstrap - NavBar Responsivo](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/navbar-responsive-bootstrap)
+    - [Bootstrap - Formulario](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/form-login-bootstrap)
+
 
 - **Lógica de Programação**
   - [Algoritmos - Manzano](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-Manzano)

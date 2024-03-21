@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --color-button: #a17d1c;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+
+.header {
+  color: white;
+}
+
+.header-content {
+  margin: auto;
+  max-width: 90%;
+  padding: 1rem 0;
+}
+
+.header-name {
+  font-size: 24px;
+}
+
+.header-nav {
+  margin-top: 20px;
+  padding-bottom: 16px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+}
+
+.header-link {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-link:hover {
+  font-weight: bold;
+  color: rgb(161, 125, 28, 0.6);
+}
+
+.style-btn {
+  width: 90%;
+  border-radius: 5px;
+  background-color: var(--color-button);
+  margin: auto;
+  cursor: pointer;
+}
+
+.style-btn:hover {
+  scale: 1.05;
+  color: white;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-hamburgue {
+  width: 28px;
+  cursor: pointer;
+  filter: invert(1);
+}
+
+.is-none {
+  display: none;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (min-width:768px) {
+  .is-none {
+    display: block;
+  }
+
+  .header-flex {
+    display: block;
+  }
+
+  .header-hamburgue {
+    display: none;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .header-nav {
+    margin-top: unset;
+    padding-bottom: unset;
+    background-color: unset;
+  }
+
+  .header-link {
+    line-height: unset;
+    color: white;
+    text-decoration: none;
+
+  }
+
+  .header-links {
+    display: flex;
+    gap: 20px;
+  }
+
+  .header-btn {
+    display: none;
+  }
+
+  .header-btn-2 {
+    border: none;
+    padding: 0.4rem 1rem;
+    background-color: white;
+    border-radius: 5px;
+    background-color: var(--color-button);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .header-btn-2:hover {
+    scale: 1.05;
+  }
+
+  .style-btn {
+    display: none;
+  }
+
+  .nav-on {
+    height: 0px;
+  }
+}

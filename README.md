@@ -16,9 +16,8 @@
   - [Prototipação com Figma](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/interface-ui-ux/figma)
 
 - **Front-End**
-  - [Introdução ao HTML e CSS](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/introducao-html-css)
-  
   - Projetos
+    - [Introdução ao HTML e CSS](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/introducao-html-css)
     - [Cidades Mais Populosas do Brasil](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/cidades-populosas)
     - [Curso de Web Design](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/curso-web-design)
     - [Coca-Cola](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/coca-cola)
@@ -33,6 +32,8 @@
     - [Website Responsivo](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/nodeprop)
     - [Homepage da Techx](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/homepage-techx)
     - [Introducao ao Bootstrap](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/introduction-bootstrap)
+
+  - Desafios
 
   - Artefatos
     - [Popoup](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/popoup)

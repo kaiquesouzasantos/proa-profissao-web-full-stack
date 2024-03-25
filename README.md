@@ -72,13 +72,13 @@
 ### VISUALIZAÇÃO DE PROJETOS
 
 ```
-kaiquesouzasantos-proa.infinityfreeapp.com/front-end/<tipo>/<projeto>
+kaiquesouzasantos-proa.kesug.com/front-end/<tipo>/<projeto>
 ```
 
 Exemplo:
 
 ```
-kaiquesouzasantos-proa.infinityfreeapp.com/front-end/projetos/prime-video
+kaiquesouzasantos-proa.kesug.com/front-end/projetos/prime-video
 ```
 #
 ### FERRAMENTAS

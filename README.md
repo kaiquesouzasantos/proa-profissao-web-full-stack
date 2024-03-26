@@ -73,9 +73,9 @@
 
 ```
 kaiquesouzasantos-proa.kesug.com/front-end/<tipo>/<projeto>
-
-[ou]
-
+```
+ou
+```
 kaiquesouzasantos-proa.infinityfreeapp.com/front-end/<tipo>/<projeto>
 ```
 

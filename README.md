@@ -73,6 +73,10 @@
 
 ```
 kaiquesouzasantos-proa.kesug.com/front-end/<tipo>/<projeto>
+
+[ou]
+
+kaiquesouzasantos-proa.infinityfreeapp.com/front-end/<tipo>/<projeto>
 ```
 
 Exemplo:

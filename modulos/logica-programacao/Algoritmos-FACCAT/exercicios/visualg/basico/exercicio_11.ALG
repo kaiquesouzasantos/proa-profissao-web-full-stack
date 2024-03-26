@@ -18,6 +18,5 @@ INICIO
    
    resultante <- salarioFixo + (comissaoFixa * carrosVendidos) + (valorVendido/100 * 5)
    
-   
    ESCREVAL("SALARIO RESULTANTE: R$" , resultante)
 FIMALGORITMO

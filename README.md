@@ -78,17 +78,13 @@
 ### VISUALIZAÇÃO DE PROJETOS
 
 ```
-kaiquesouzasantos-proa.kesug.com/front-end/<tipo>/<projeto>
-```
-ou
-```
-kaiquesouzasantos-proa.infinityfreeapp.com/front-end/<tipo>/<projeto>
+kaiquesouzasantos.github.io/proa-profissao-web-full-stack/modulos/front-end/<tipo>/<projeto>
 ```
 
 Exemplo:
 
 ```
-kaiquesouzasantos-proa.kesug.com/front-end/projetos/prime-video
+kaiquesouzasantos.github.io/proa-profissao-web-full-stack/modulos/front-end/projetos/prime-video
 ```
 #
 ### FERRAMENTAS

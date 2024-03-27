@@ -30,13 +30,16 @@
     - [Player Music](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/music-player)
     - [Website Responsivo](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/nodeprop)
     - [Homepage da Techx](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/homepage-techx)
+
     - Bootstrap
       - [Homepage de Introducao](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/bootstrap/homepage-introduction)
       - [Homepage Carft Lance](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/bootstrap/homepage-carft-lance)
       - [Formulario de Login](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/bootstrap/form-login)
       - [NavBar](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/bootstrap/navbar)
       - [NavBar Responsiva](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/bootstrap/navbar-responsive)
+
   - Desafios
+  
   - Artefatos
     - [Popoup](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/popoup)
     - [Footer Responsivo](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/footer-responsive)

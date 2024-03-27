@@ -1,0 +1,150 @@
+@media (max-width: 1200px) {
+  h3 {
+    font-size: 30px;
+  }
+
+  .s-up-bottom-icon h6 {
+    font-size: 13px;
+  }
+
+  .box {
+    width: 290px;
+  }
+
+  .box-wrapper {
+    margin-top: 35px;
+  }
+
+  .cards {
+    width: 300px;
+  }
+}
+
+@media (max-width: 992px) {
+  .s-up-main-wrapper {
+    max-width: 100%;
+  }
+
+  .box {
+    width: 330px;
+  }
+
+  .box-wrapper {
+    margin-top: 30px;
+  }
+
+  .cards {
+    width: 220px;
+  }
+
+  .footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .footer .container .ul-wrappers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 25px;
+  }
+
+  .box-wrapper {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .box-wrapper {
+    margin-top: 30px;
+  }
+
+  .cards {
+    width: 245px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .menus {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menus-wrapper {
+    position: absolute;
+    top: -120%;
+    left: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #222222;
+    color: #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: all;
+  }
+
+  .menu-item {
+    border-bottom: 1px solid #bbbbbb;
+    padding: 9px;
+  }
+
+  .fas.fa-align-left {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 20px;
+  }
+
+  .contact {
+    font-size: 11.5px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .get-email-wrapper button {
+    width: 85px;
+  }
+
+  .s-up-process {
+    padding: 25px 5px;
+  }
+
+  .or-option-wrapper {
+    width: 230px;
+    font-size: 10px;
+  }
+
+  .middle {
+    font-size: 10px;
+  }
+
+  .box-wrapper {
+    margin-top: 25px;
+  }
+
+  .cards {
+    width: 100%;
+  }
+
+  .analysis h3 {
+    font-size: 18px;
+  }
+
+  .right-txt {
+    color: #929292;
+    font-size: 8.5px;
+  }
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Kaique Souza Santos">
+  <meta name="keywords" content="HTML, CSS e BOOTSTRAP">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>PROAPROFISSAO | Formulario Responsivo</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <main>
+    <article class="wrapper">
+      <form action="">
+        <h1>Login</h1>
+
+        <div class="input-box">
+          <input type="text" placeholder="Usuário" required>
+          <i class="bx bxs-user"></i>
+        </div>
+
+        <div class="input-box">
+          <input type="password" placeholder="Senha" required data-password>
+
+          <div>
+            <i id="lock-password" class="bx bxs-lock"></i>
+            <i id="show-password" class='bx bx-show' style="display: none;"></i>
+            <i id="hide-password" class='bx bxs-hide' style="display: none;"></i>
+          </div>
+        </div>
+
+        <div class="remember-forgot">
+          <label>
+            <input type="checkbox">
+            Lembrar de mim
+          </label>
+          <a href="#">Esqueceu a Senha?</a>
+        </div>
+
+        <button type="submit" class="btn">Logar</button>
+
+        <div class="register-link">
+          <p>Não tem uma conta? <a href="#">Registrar</a></p>
+        </div>
+      </form>
+    </article>
+  </main>
+
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>

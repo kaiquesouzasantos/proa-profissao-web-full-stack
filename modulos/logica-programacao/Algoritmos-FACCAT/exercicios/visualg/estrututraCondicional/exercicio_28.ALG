@@ -13,7 +13,7 @@ INICIO
    ESCREVAL("DIGITE O TERCEIRO NUMERO: ")
    LEIA(valorC)
    
-   SE ((valorA > valorB) E (valorA > valorB)) ENTAO
+   SE ((valorA > valorB) E (valorA > valorC)) ENTAO
       ESCREVAL("MAIOR VALOR: " , valorA)
    SENAO
       SE ((valorB > valorA) E (valorB > valorC)) ENTAO

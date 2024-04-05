@@ -7,7 +7,7 @@
 #
 ### SOBRE
 
-- Repositório que abriga o desenvolvimento das atividades técnicas realizadas nas dependências do programa PROPROFISSÃO, no primeiro semestre de 2024.
+- Repositório que abriga o desenvolvimento das atividades técnicas realizadas nas dependências do programa PROPROFISSÃO, no primeiro semestre de 2024, com [Jailson Costa dos Santos](https://github.com/professorobama).
 
 #
 ### TOPICOS

@@ -1,8 +1,8 @@
-package estruturaRepeticao;
+package estruturaRepeticaoWhile;
 
 import java.util.Scanner;
 
-public class Exercicio_47 {
+public class Exercicio_45 {
     private static final Scanner entrada = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -14,16 +14,9 @@ public class Exercicio_47 {
         do {
             exibeTexto("DIGITE O SEGUNDO VALOR A SER PROCESSADO: ");
             valorB = entrada.nextInt();
-
-            if(verificaZero(valorB))
-                exibeTexto("VALOR INVÁLIDO");
         } while (valorB == 0);
 
         exibeTexto("RESULTANTE: " + divide(valorA, valorB));
-    }
-
-    private static boolean verificaZero(int valor) {
-        return valor == 0;
     }
 
     private static double divide(int valorA, int valorB) {

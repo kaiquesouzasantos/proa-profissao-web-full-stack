@@ -1,4 +1,4 @@
-package estruturaRepeticao;
+package estruturaRepeticaoWhile;
 
 import java.util.Scanner;
 

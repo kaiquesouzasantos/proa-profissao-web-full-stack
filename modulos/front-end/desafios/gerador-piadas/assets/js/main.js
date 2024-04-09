@@ -1,7 +1,7 @@
 class Joke {
     constructor() {
         this.url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single"
-        this.jokeContainer = this.getDOMElement("joke")
+        this.jokeContainer = this.getDOMElement("[data-joke]")
     }
 
     async render() {
@@ -27,8 +27,8 @@ class Joke {
         this.jokeContainer.classList.add("fade")
     }
 
-    getDOMElement(id) {
-        return document.getElementById(id)
+    getDOMElement(data) {
+        return document.querySelector(data)
     }
 }
 

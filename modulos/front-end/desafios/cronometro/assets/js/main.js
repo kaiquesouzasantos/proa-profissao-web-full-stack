@@ -6,6 +6,7 @@ class Clock {
     }
 
     start() {
+        // se isRunning == false, adere a condicao
         if (!this.isRunning) {
             this.interval = setInterval(() => {
                 this.time.setSeconds()
@@ -17,12 +18,14 @@ class Clock {
     }
 
     stop() {
+        // encerra a execucao do intervalo paralelo
         clearInterval(this.interval)
         this.isRunning = false
     }
     
     reset() {
         this.stop()
+        // reinicia a contagem de tempo
         this.time = new Time()
         this.setTime()
     }

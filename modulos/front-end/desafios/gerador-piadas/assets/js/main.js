@@ -1,6 +1,6 @@
 class Joke {
     constructor() {
-        this.url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single"
+        this.url = "https://v2.jokeapi.dev/joke/Programming?lang=en&type=single"
         this.jokeContainer = this.getDOMElement("[data-joke]")
     }
 
@@ -17,12 +17,10 @@ class Joke {
     }
 
     async translate({joke}) {
-        console.log(joke)
         return await Translater.getTranslate(joke)
     }
 
     setJoke(joke) {
-        console.log(joke)
         this.jokeContainer.textContent = `${joke}`
         this.jokeContainer.classList.add("fade")
     }
@@ -35,7 +33,9 @@ class Joke {
 class Translater {
     static async getTranslate(text) {
         return await 
-            fetch(`https://api.mymemory.translated.net/get?q=${text}&langpair=en-GB|pt-BR`)
+            fetch(
+                `https://api.mymemory.translated.net/get?q=${text}&langpair=en-GB|pt-BR`
+            )
                 .then(data => data.json())
                 .then(data => data.responseData.translatedText)
     } 

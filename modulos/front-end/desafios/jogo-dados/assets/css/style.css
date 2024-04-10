@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+:root {
+    --color-dark: #050505e6;
+    --color-light: #fff;
+    --color-brown: #a52a2a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: var(--color-dark);
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(90, 105, 105, 1) 0%, rgba(32, 36, 36, 1) 50%, rgba(22, 21, 21, 1) 100%);
+}
+
+.container {
+    width: 400px;
+    padding: 40px 50px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: var(--color-light);
+    box-shadow: 0 20px 35px rgba(60, 60, 60, 0.2);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dice-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 130px;
+}
+
+p {
+    font-size: 23px;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+span {
+    color: var(--color-brown);
+}
+
+button {
+    background-color: var(--color-dark);
+    border: none;
+    outline: none;
+    color: var(--color-light);
+    padding: 15px 0;
+    width: 100%;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #161414e6;
+}
+
+button i {
+    color: var(--color-light);
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.shake {
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: rotate(30deg);
+    }
+}

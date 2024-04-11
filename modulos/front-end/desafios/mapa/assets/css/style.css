@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+:root {
+    --color-dark: #050505e6;
+    --color-light: #fff;
+    --color-brown: #a52a2a;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background: linear-gradient(180deg, rgba(90, 105, 105, 1) 0%, rgba(32, 36, 36, 1) 50%, rgba(22, 21, 21, 1) 100%);
+}
+
+.container {
+    width: 800px;
+    background-color: var(--color-light);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;   
+    color: var(--color-brown);
+    font-weight: bold;
+}
+
+button {
+    background-color: var(--color-dark);
+    border: none;
+    outline: none;
+    color: var(--color-light);
+    padding: 15px 0;
+    width: 100%;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #161414e6;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .2);
+}

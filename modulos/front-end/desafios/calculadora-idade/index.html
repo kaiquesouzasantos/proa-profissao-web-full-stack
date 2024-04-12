@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kaique Souza Santos">
+    <meta name="keywords" content="HTML, CSS e JavaScript">
+    <meta name="description" content="Calculadora de Idade Exata.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>PROAPROFISSAO | Calculadora de Idade</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <main>
+        <article class="container">
+            <section class="input-wrapper">
+                <input type="date" data-input/>
+            </section>
+
+            <section class="error" data-error>
+                <p>Date Invalid, Retry On Another Format</p>
+            </section>
+
+            <section class="output-wrapper">
+                <div>
+                    <span data-years>-</span>
+                    <p>Years</p>
+                </div>
+
+                <div>
+                    <span data-months>-</span>
+                    <p>Months</p>
+                </div>
+
+                <div>
+                    <span data-days>-</span>
+                    <p>Days</p>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>

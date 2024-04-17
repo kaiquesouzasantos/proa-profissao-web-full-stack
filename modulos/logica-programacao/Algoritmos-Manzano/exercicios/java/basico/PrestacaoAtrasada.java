@@ -35,5 +35,4 @@ public class PrestacaoAtrasada {
     private static void exibeTexto(String texto) {
         System.out.println(texto);
     }
-
 }

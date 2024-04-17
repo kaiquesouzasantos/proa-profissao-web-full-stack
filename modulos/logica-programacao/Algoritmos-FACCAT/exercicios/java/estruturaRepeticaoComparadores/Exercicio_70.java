@@ -6,16 +6,11 @@ public class Exercicio_70 {
     private static final Scanner entrada = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int maior = 0, menor = 0, numero;
+        int maior = 0, menor = 10000000000, numero;
 
         for(int contador = 1; contador <= 10; contador++) {
             exibeTexto("DIGITE O " + contador + " VALOR: ");
             numero = entrada.nextInt();
-
-            if(contador == 1) {
-                menor = numero;
-                continue;
-            }
 
             if(numero > maior)
                 maior = numero;

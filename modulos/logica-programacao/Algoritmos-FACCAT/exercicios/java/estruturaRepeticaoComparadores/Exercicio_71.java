@@ -20,7 +20,7 @@ public class Exercicio_71 {
         }
 
         exibeTexto("MAIOR VALOR: " + maior);
-        exibeTexto("MEDIAS DOS VALORES: " + (media / leituras));
+        exibeTexto("MEDIA DOS VALORES: " + (media / leituras));
     }
 
     private static void exibeTexto(String texto) {

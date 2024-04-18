@@ -1,4 +1,4 @@
-ALGORITMO "SomaValorePares"
+ALGORITMO "SomaValoresPares"
 
 VAR
     soma, contador: INTEIRO

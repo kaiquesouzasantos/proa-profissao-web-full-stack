@@ -2,8 +2,6 @@ ALGORITMO "LeituraInteirosPositivos"
 
 VAR
     leitura: REAL
-    valores: VETOR[1..100] DE REAL
-    indice: INTEIRO
     maior, menor: REAL
 
 FUNCAO verificaPositivo(numero: REAL): LOGICO
@@ -20,7 +18,6 @@ INICIO
 FIMFUNCAO
 
 INICIO
-    indice <- 1
     leitura <- 0
     maior <- 0
     menor <- 1000000000000

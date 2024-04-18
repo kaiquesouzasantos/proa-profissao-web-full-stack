@@ -11,7 +11,6 @@ INICIO
     FIMSE
 FIMFUNCAO
 
-
 INICIO
     contador <- 0
 

@@ -5,7 +5,7 @@ export class Manipulation {
         DOM.getContainer().innerHTML += `
         <div class="exercise">
             <span class="tag tag-${type}"><i class="fa-solid fa-code"></i></span>
-            <h2>Exercício ${name}</h2>
+            <h2>${name}</h2>
 
             <i class="fa-solid fa-play icon icon-${type}"></i>
         </div>

@@ -896,6 +896,8 @@ export const exercises = [{
         name: "Contador 15 ate 200",
         type: "for",
         exercise: () => {
+            alert("ACESSE O CONSOLE")
+
             for (let contador = 15; contador <= 200; contador++) {
                 console.log("O QUADRADO DO NUMERO " + contador + " E: " + (contador * contador));
             }
@@ -905,6 +907,8 @@ export const exercises = [{
         name: "Divisiveis Por 4",
         type: "for",
         exercise: () => {
+            alert("ACESSE O CONSOLE")
+
             for (let contador = 1; contador <= 200; contador++) {
                 if (contador % 4 === 0) {
                     console.log("O NUMERO " + contador + " E POR QUATRO");
@@ -916,6 +920,8 @@ export const exercises = [{
         name: "Multiplos de Dez em Celsius",
         type: "for",
         exercise: () => {
+            alert("ACESSE O CONSOLE")
+
             for (let contador = 1; contador <= 10; contador++) {
                 console.log(contador * 10 + " C = " + converteCelsiusParaFahrenheit(contador * 10) + " F");
             }
@@ -929,6 +935,8 @@ export const exercises = [{
             const expoente = parseInt(prompt("DIGITE O VALOR DO EXPOENTE: "));
     
             let ultimoValor = 1;
+
+            alert("ACESSE O CONSOLE")
     
             for (let contador = 1; contador <= expoente; contador++) {
                 ultimoValor *= exponenciado;
@@ -940,6 +948,8 @@ export const exercises = [{
         name: "Potenciacao de 3",
         type: "for",
         exercise: () => {
+            alert("ACESSE O CONSOLE")
+
             for (let contador = 0; contador <= 15; contador++) {
                 console.log("3^" + contador + " = " + retornaExponenciado(3, contador));
             }
@@ -961,7 +971,6 @@ export const exercises = [{
         type: "for",
         exercise: () => {
             let atual = 0;
-            let termo = 1;
             let posterior = 1;
     
             for (let i = 2; i <= 15; i++) {
@@ -969,6 +978,8 @@ export const exercises = [{
                 atual = posterior - atual;
             }
     
+            alert("ACESSE O CONSOLE")
+
             console.log("15 TERMO DA SEQUENCIA FIBONACCI: " + atual);
         },
     },
@@ -981,6 +992,8 @@ export const exercises = [{
             for (let contador = 1; contador <= 100; contador++) {
                 soma += contador;
             }
+
+            alert("ACESSE O CONSOLE")
     
             console.log("SOMA DOS NUMEROS ENTRE 1 E 100 E: " + soma);
         },
@@ -994,6 +1007,8 @@ export const exercises = [{
             for (let contador = 1; contador <= 500; contador++) {
                 soma += retornaPar(contador);
             }
+
+            alert("ACESSE O CONSOLE")
     
             console.log("SOMA DOS NUMEROS PARES ENTRE 1 E 500 E: " + soma);
         },
@@ -1002,6 +1017,8 @@ export const exercises = [{
         name: "Somente Impares",
         type: "for",
         exercise: () => {
+            alert("ACESSE O CONSOLE")
+
             for (let contador = 0; contador <= 20; contador++) {
                 if (verificaImpar(contador)) {
                     console.log("O NUMERO " + contador + " E IMPAR");
@@ -1015,6 +1032,8 @@ export const exercises = [{
         exercise: () => {
             const valorTabuada = parseInt(prompt("DIGITE O NUMERO DE BASE DA TABUADA: "));
     
+            alert("ACESSE O CONSOLE")
+            
             for (let contador = 1; contador <= 10; contador++) {
                 console.log(valorTabuada + " X " + contador + " = " + (valorTabuada * contador));
             }

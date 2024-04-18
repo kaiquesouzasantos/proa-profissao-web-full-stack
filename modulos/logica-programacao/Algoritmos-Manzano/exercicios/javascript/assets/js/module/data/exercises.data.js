@@ -1,4 +1,5 @@
-export const exercises = [{
+export const exercises = [
+    {
         name: "Area do Circulo",
         type: "basic",
         exercise: () => {
@@ -349,7 +350,7 @@ export const exercises = [{
         },
     },
     {
-        name: "Aprovacao com Recuperacao",
+        name: "Recuperacao",
         type: "conditional",
         exercise: () => {
             let notas = 0;
@@ -601,7 +602,7 @@ export const exercises = [{
         },
     },
     {
-        name: "Multiplos Dez em Celsius",
+        name: "Multiplos em Celsius",
         type: "while",
         exercise: () => {
             let contador = 1;
@@ -917,7 +918,7 @@ export const exercises = [{
         },
     },
     {
-        name: "Multiplos de Dez em Celsius",
+        name: "Multiplos em Celsius",
         type: "for",
         exercise: () => {
             alert("ACESSE O CONSOLE")

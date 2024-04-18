@@ -2,19 +2,22 @@ import { DOM } from "./dom.service.js"
 
 export class Manipulation {
     static addComponent({type, name, exercise}) {
-        DOM.getContainer().innerHTML += `
-        <div class="exercise">
-            <span class="tag tag-${type}"><i class="fa-solid fa-code"></i></span>
-            <h2>${name}</h2>
+        const component = document.createElement('div')
 
-            <i class="fa-solid fa-play icon icon-${type}"></i>
-        </div>
+        component.innerHTML = `
+            <div class="exercise">
+                <span class="tag tag-${type}"><i class="fa-solid fa-code"></i></span>
+                <h2>${name}</h2>
+
+                <i id="button-${name}" class="fa-solid fa-play icon icon-${type}"></i>
+            </div>
         `
 
-        this.addRunnerExercise(name, exercise)
+        DOM.getContainer().appendChild(component);
+        this.addRunnerExercise(`button-${name}`, exercise)
     }
 
-    static addRunnerExercise(name, exercise) {
-        DOM.getById(`button-${name}`)?.addEventListener("click", exercise)
+    static addRunnerExercise(id, exercise) {
+        DOM.getById(id)?.addEventListener("click", exercise)
     }
 }

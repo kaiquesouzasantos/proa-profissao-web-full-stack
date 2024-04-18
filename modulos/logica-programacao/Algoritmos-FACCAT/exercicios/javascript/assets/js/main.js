@@ -1,4 +1,4 @@
-import { Manipulation } from "./module/service/Manipulator.service.js"
+import { Manipulation } from "./module/service/manipulator.service.js"
 import { exercises } from "./module/data/exercises.data.js"
 
 window.addEventListener("load", () => {

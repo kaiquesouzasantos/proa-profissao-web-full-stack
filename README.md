@@ -57,8 +57,14 @@
     - [Mudanca de Tema](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/change-theme)
 
 - **Lógica de Programação**
-  - [Algoritmos - Manzano](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-Manzano)
-  - [Algoritmos - FACCAT](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-FACCAT)
+  - Algoritmos - Manzano
+    - [Visualg](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-Manzano/exercicios/visualg)
+    - [Javascript](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-Manzano/exercicios/javascript)
+    - [Java](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-Manzano/exercicios/java)
+  - Algoritmos - FACCAT
+    - [Visualg](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-FACCAT/exercicios/visualg)
+    - [Javascript](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-FACCAT/exercicios/javascript)
+    - [Java](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-FACCAT/exercicios/java)
 
 - **DemoDay**
 

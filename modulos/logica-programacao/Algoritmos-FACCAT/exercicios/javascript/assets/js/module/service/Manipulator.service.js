@@ -1,6 +1,6 @@
 import { DOM } from "./dom.service.js"
 
-export class Manipulation {
+export class Manipulator {
     static addComponent({type, name, exercise}) {
         const component = document.createElement('div')
 

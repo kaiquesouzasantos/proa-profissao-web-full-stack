@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 60px;
-    background: linear-gradient(180deg, rgba(90, 105, 105, 1) 0%, rgba(32, 36, 36, 1) 50%, rgba(22, 21, 21, 1) 100%);
+    background: var(--color-dark);
 }
 
 .container {

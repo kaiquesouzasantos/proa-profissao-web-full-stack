@@ -605,6 +605,10 @@ export const exercises = [
         name: "Multiplos em Celsius",
         type: "while",
         exercise: () => {
+            function converteCelsiusParaFahrenheit(celsius) {
+                return ((9 * celsius) + 160) / 5;
+            }
+
             let contador = 1;
             
             while (contador <= 10) {
@@ -620,8 +624,8 @@ export const exercises = [
         exercise: () => {
             let exponenciado = parseInt(prompt("DIGITE O VALOR DO EXPONENCIADO: "));
             let expoente = parseInt(prompt("DIGITE O VALOR DO EXPOENTE: "));
-            let contador = 1;
-            let ultimoValor = 1;
+
+            let contador = 1, ultimoValor = 1;
     
             while (contador <= expoente) {
                 ultimoValor *= exponenciado;
@@ -637,7 +641,7 @@ export const exercises = [
             let contador = 0;
     
             while (contador <= 15) {
-                alert("3^" + contador + " = " + retornaExponenciado(3, contador));
+                alert("3^" + contador + " = " + (3 ** contador));
                 contador++;
             }
         },
@@ -649,7 +653,6 @@ export const exercises = [
             let termo = 1;
             let atual = 0;
             let posterior = 1;
-            let contador = 1;
     
             while (termo <= 15) {
                 posterior += atual;
@@ -711,6 +714,10 @@ export const exercises = [
         name: "Somente Impares",
         type: "while",
         exercise: () => {
+            function verificaImpar(valor) {
+                return valor % 2 != 0
+            }
+
             let contador = 0;
     
             while (contador <= 20) {
@@ -800,9 +807,17 @@ export const exercises = [
         name: "Sequencia Fatorial",
         type: "dowhile",
         exercise: () => {
-            let valores = [];
-            let fatoriais = [];
-    
+            function calculaFatorial(numero) {
+                let saida = 1;
+        
+                for (;numero >= 1; numero--) {
+                    saida *= numero;
+                }
+        
+                return saida;
+            }
+
+            let valores = [], fatoriais = [];
             let contador = 1;
     
             do {
@@ -821,6 +836,10 @@ export const exercises = [
         name: "Sequencia Fatorial Impar",
         type: "dowhile",
         exercise: () => {
+            function verificaImpar(valor) {
+                return valor % 2 != 0
+            }
+
             let contador = 1;
     
             do {
@@ -852,6 +871,10 @@ export const exercises = [
         name: "Somatorio de Pares",
         type: "dowhile",
         exercise: () => {
+            function verificaPar(valor) {
+                return valor % 2 == 0
+            }
+
             let contador = 1;
             let soma = 0;
     
@@ -921,7 +944,11 @@ export const exercises = [
         name: "Multiplos em Celsius",
         type: "for",
         exercise: () => {
-            alert("ACESSE O CONSOLE")
+            function converteCelsiusParaFahrenheit(celsius) {
+                return ((9 * celsius) + 160) / 5;
+            }
+
+            //alert("ACESSE O CONSOLE")
 
             for (let contador = 1; contador <= 10; contador++) {
                 console.log(contador * 10 + " C = " + converteCelsiusParaFahrenheit(contador * 10) + " F");
@@ -952,7 +979,7 @@ export const exercises = [
             alert("ACESSE O CONSOLE")
 
             for (let contador = 0; contador <= 15; contador++) {
-                console.log("3^" + contador + " = " + retornaExponenciado(3, contador));
+                console.log("3^" + contador + " = " + (3 ** contador));
             }
         },
     },
@@ -960,6 +987,10 @@ export const exercises = [
         name: "Sequencia Fatorial Impar",
         type: "for",
         exercise: () => {
+            function verificaImpar(valor) {
+                return valor % 2 != 0
+            }
+
             for (let contador = 1; contador <= 10; contador++) {
                 if (verificaImpar(contador)) {
                     console.log("O NUMERO " + contador + " E IMPAR E SEU FATORIAL E: " + calculaFatorial(contador));
@@ -980,7 +1011,6 @@ export const exercises = [
             }
     
             alert("ACESSE O CONSOLE")
-
             console.log("15 TERMO DA SEQUENCIA FIBONACCI: " + atual);
         },
     },
@@ -995,7 +1025,6 @@ export const exercises = [
             }
 
             alert("ACESSE O CONSOLE")
-    
             console.log("SOMA DOS NUMEROS ENTRE 1 E 100 E: " + soma);
         },
     },
@@ -1003,6 +1032,10 @@ export const exercises = [
         name: "Soma de Pares",
         type: "for",
         exercise: () => {
+            function retornaPar(numero) {
+                return (numero % 2 == 0) ? numero : 0
+            }
+
             let soma = 0;
     
             for (let contador = 1; contador <= 500; contador++) {
@@ -1018,6 +1051,10 @@ export const exercises = [
         name: "Somente Impares",
         type: "for",
         exercise: () => {
+            function verificaImpar(valor) {
+                return valor % 2 != 0
+            }
+
             alert("ACESSE O CONSOLE")
 
             for (let contador = 0; contador <= 20; contador++) {

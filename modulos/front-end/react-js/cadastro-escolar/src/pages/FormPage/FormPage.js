@@ -10,14 +10,11 @@ export default function FormPage() {
     const academicoRepository = new AcademicoRepository()
     const [formData, setFormData] = useState({})
 
-    const handleChange = (event) => {
-      
-    }
-  
     const handleSubmit = (event) => {
-      event.preventDefault()
-      academicoRepository.set(formData)
-      setFormData({})
+        event.preventDefault()
+        console.log(formData)
+        academicoRepository.set(formData)
+        setFormData({})
     }
 
     return(
@@ -28,7 +25,7 @@ export default function FormPage() {
             <h2 className='form-title'>Formulário de Cadastro de Acadêmico</h2>
 
             <form onSubmit={handleSubmit} className='form'>
-                <Input atribut="Nome" type="text" placeholder="Digite seu Nome Completo" />
+                <Input atribut="Nome" type="text" placeholder="Digite seu Nome Completo"/>
                 <Input atribut="RA" type="text" placeholder="Digite seu Registro Academico"/>
                 <Input atribut="E-mail" type="email" placeholder="Digite seu Email"/>
                 <Input atribut="Senha" type="text" placeholder="Digite sua Senha"/>

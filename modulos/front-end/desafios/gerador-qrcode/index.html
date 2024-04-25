@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kaique Souza Santos">
+    <meta name="keywords" content="HTML, CSS e JavaScript">
+    <meta name="description" content="Gerador de QR CODE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>PROAPROFISSAO | Gerador de QR CODE</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <main>
+        <article class="container">
+            <div class="generated" id="generated">
+                    <div id="qrcode"></div>
+            </div>
+
+            <form id="generate-form">
+                <div class="input-section">
+                    <input id="url" type="url" placeholder="Enter a URL" required/>
+                    <button class="button-download" id="button-download">
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </button>
+                </div>
+                
+                <button type="submit">Generate QR Code</button>
+            </form>
+        </article>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+        integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

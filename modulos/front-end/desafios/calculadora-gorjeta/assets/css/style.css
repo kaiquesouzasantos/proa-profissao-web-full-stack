@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+:root {
+    --color-dark: #050505e6;
+    --color-light: #fff;
+    --color-green: #24a824;
+    --color-gray: #d3d3d3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: var(--color-dark);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-dark);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.input-container {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+}
+
+.button-container {
+    width: 100%;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculate-button {
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.5rem;
+    color: var(--color-light);
+    background: var(--color-dark);
+}
+
+.calculate-button:hover {
+    background-color: #1a1717e6;
+}
+
+.calculator {
+    background: var(--color-light);
+    border-radius: 5px;
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
+}
+
+.calculator input {
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid var(--color-gray);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.calculator i {
+    width: 10%;
+    padding: 12px;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: var(--color-light);
+    background: var(--color-dark);
+}
+
+.quality {
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid var(--color-gray);
+}
+
+.tip-amount {
+    visibility: hidden;
+    min-width: 250px;
+    margin: auto;
+    background: brown;
+    color: var(--color-light);
+    bottom: 30px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+}
+
+.tip-amount.show {
+    visibility: visible;
+}
+
+@media (max-width: 480px) {
+    .calculator input {
+        width: 85%;
+    }
+
+    .calculator button {
+        width: 15%;
+    }
+}
+
+@media (max-width: 320px) {
+    .calculator input {
+        width: 80%;
+    }
+
+    .calculator button {
+        width: 20%;
+    }
+}

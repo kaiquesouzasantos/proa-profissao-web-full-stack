@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap");
+@import url("https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css");
+
+:root {
+  --color-dark: #050505e6;
+  --color-light: #fff;
+  --color-gray: #898989;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--color-dark);
+  width: 100%;
+}
+
+.wrapper {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.wrapper li {
+  background-color: var(--color-light);
+  list-style: none;
+  height: 250px;
+  border-radius: 10px;
+  padding: 15px 20px 20px;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.add-box,
+.icon,
+.bottom-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon {
+  height: 78px;
+  width: 78px;
+  border-radius: 50%;
+  border: 2px dashed var(--color-dark);
+  font-size: 40px;
+  color: var(--color-dark);
+  cursor: pointer;
+}
+
+.add-box p {
+  font-weight: 500;
+  margin-top: 20px;
+  color: var(--color-dark);
+}
+
+.note p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.note span {
+  display: block;
+  font-size: 12px;
+  color: var(--color-gray);
+  margin-top: 5px;
+}
+
+.bottom-content {
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-top: 1px solid var(--color-gray);
+}
+
+.bottom-content span {
+  color: var(--color-gray);
+  font-size: 14px;
+}
+
+.settings i {
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--color-gray);
+}
+
+.settings {
+  position: relative;
+}
+
+.menu {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px 0;
+  border-radius: 4px;
+  background-color: var(--color-light);
+
+  transform: scale(0);
+  transform-origin: bottom right;
+  transition: transform 0.2s ease;
+}
+
+.setting-icon::before {
+  z-index: 1;
+}
+
+.settings.show .menu {
+  transform: scale(1);
+}
+
+.menu li {
+  height: 25px;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 17px 15px;
+}
+
+.menu li i {
+  padding-right: 8px;
+}
+
+.menu li:hover {
+  background-color: #f5f5f5;
+}
+
+.popup-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  max-width: 600px;
+  width: 100%;
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 10px;
+  color: var(--color-dark);
+}
+
+header {
+  border-bottom: 1px solid var(--color-dark);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+}
+
+header p {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+header i {
+  font-size: 30px;
+  color: var(--color-gray);
+  cursor: pointer;
+  margin-right: -8px;
+}
+
+form {
+  margin: 15px 25px 35px;
+}
+
+form :where(input, textarea) {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  font-size: 14px;
+  font-weight: normal;
+  border-radius: 10px;
+  border: 2px solid var(--color-gray);
+  padding: 15px;
+}
+
+.row label {
+  margin-top: 15px;
+  margin-bottom: 7px;
+  font-size: 17px;
+  display: block;
+}
+
+form textarea {
+  height: 150px;
+  resize: none;
+  padding: 8px 15px;
+}
+
+form button {
+  background-color: var(--color-dark);
+  height: 50px;
+  width: 100%;
+  margin: 15px 0;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: var(--color-light);
+}
+
+.popup-box,
+.popup-box.popup {
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.25s ease;
+}
+
+.popup-box.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hide-icon {
+  display: none;
+}

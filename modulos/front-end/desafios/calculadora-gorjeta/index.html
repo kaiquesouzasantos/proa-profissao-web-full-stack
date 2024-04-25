@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kaique Souza Santos">
+    <meta name="keywords" content="HTML, CSS e JavaScript">
+    <meta name="description" content="Calculadora de Gorjeta.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>PROAPROFISSAO | Calculadora de Gorjeta</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <main>
+        <article class="container">
+            <div id="calculator" class="calculator">
+                <h3>Calculadora de Gorjeta</h3>
+
+                <form>
+                    <div>
+                        <label for="amount">Valor da Conta</label>
+
+                        <div class="input-container">
+                            <i class="fas fa-dollar-sign"></i>
+                            <input type="number" id="amount" placeholder="Digite o valor da conta" />
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="guests">Número de Convidados</label>
+
+                        <div class="input-container">
+                            <i class="fas fa-male"></i>
+                            <input type="number" id="guests" placeholder="Digite o numero de convidados" />
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="quality">Qualidade do Serviço</label>
+
+                        <select id="quality" class="quality">
+                            <option disabled selected value="0">Escolha...</option>
+                            <option value="0.3">30% - Excelente</option>
+                            <option value="0.2">20% - Bom</option>
+                            <option value="0.15">15% - Regular</option>
+                            <option value="0.1">10% - Ruim</option>
+                            <option value="0.05">5% - Péssimo</option>
+                        </select>
+                    </div>
+
+                    <div class="button-container">
+                        <div class="calculate-button" data-calculate>
+                            Calcular
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div id="tip-amount" class="tip-amount">
+
+            </div>
+        </article>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

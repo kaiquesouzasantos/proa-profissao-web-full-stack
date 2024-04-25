@@ -1,0 +1,16 @@
+.button-home + .section-view {
+    background-color: blue;
+}
+
+.section-view {
+    width: 100%;
+    margin: 120px 0 0 0;
+}
+
+.div-view {
+    width: 800px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

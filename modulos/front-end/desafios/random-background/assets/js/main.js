@@ -1,8 +1,6 @@
 class Color {
     static getColor() {
-        return `rgb(
-            ${Color.sortedFragment()}, ${Color.sortedFragment()}, ${Color.sortedFragment()}
-        )`
+        return `rgb(${Color.sortedFragment()}, ${Color.sortedFragment()}, ${Color.sortedFragment()})`
     }
 
     static sortedFragment() {
@@ -11,5 +9,8 @@ class Color {
 }
 
 document.querySelector("[data-button]").addEventListener("click", () => {
-    document.body.style.backgroundColor = Color.getColor()
+    let color = Color.getColor()
+
+    document.body.style.backgroundColor = color
+    document.querySelector("[data-color]").innerText = color
 })

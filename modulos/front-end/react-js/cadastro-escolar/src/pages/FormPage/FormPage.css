@@ -1,0 +1,18 @@
+.form-title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #494949e6;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+button {
+  grid-column: 1 / -1;
+}

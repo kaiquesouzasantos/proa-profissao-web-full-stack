@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+:root {
+  --color-primary: #fff;
+  --color-secundary: #050505e6;
+  --color-brown: #a52a2a;
+  --color-default: #454545;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Opens Sans', sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: var(--color-secundary);
+  color: var(--color-primary);
+}
+
+.container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 20px 50px;
+}
+
+.header h2 {
+  font-size: 2rem;
+}
+
+.user-input {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-input input {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  color: var(--color-default);
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+.add-item {
+  width: 70px;
+  height: 40px;
+  cursor: pointer;
+  padding: 10px;
+  color: var(--color-primary);
+  background-color: var(--color-secundary);
+  outline: none;
+  border: 1px solid var(--color-primary);
+  border-radius: 0 5px 5px 0;
+}
+
+.to-do-list {
+  width: 500px;
+  margin: auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem;
+  color: var(--color-default);
+  margin-top: 10px;
+  font-size: 1rem;
+  background-color: var(--color-primary);
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+  transition: all 0.30s ease-in-out;
+}
+
+.item p {
+  word-break: break-all;
+}
+
+.item i {
+  cursor: pointer;
+  margin: 5px 5px;
+}
+
+.trash:hover {
+  color: var(--color-brown);
+}
+
+@media(max-width:1280px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media(max-width:768px) {
+  .container {
+    width: 95%;
+  }
+
+  .header {
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header h2 {
+    margin: 10px 0;
+  }
+
+  .user-input {
+    width: 100%;
+  }
+
+  .to-do-list {
+    width: 100%;
+  }
+}
+
+@media(max-width:480px) {
+  .user-input input {
+    width: 74%;
+  }
+}
+
+@media(max-width:320px) {
+  .user-input input {
+    width: 60%;
+  }
+}

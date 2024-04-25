@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Kaique Souza Santos">
+  <meta name="keywords" content="HTML, CSS e JavaScript">
+  <meta name="description" content="Notificacoes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>PROAPROFISSAO | Notificacoes</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <main>
+    <article class="container-button">
+      <button onclick="showToast('success')">
+        <i class="fa-solid fa-circle-check"></i>
+        Success
+      </button>
+
+      <button onclick="showToast('error')">
+        <i class="fa-solid fa-circle-xmark"></i>
+        Error
+      </button>
+
+      <button onclick="showToast('invalid')">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        Invalid
+      </button>
+    </article>
+
+    <div class="toast-content" id="toast-content"></div>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+  <script src="https://kit.fontawesome.com/ec6584ee5b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

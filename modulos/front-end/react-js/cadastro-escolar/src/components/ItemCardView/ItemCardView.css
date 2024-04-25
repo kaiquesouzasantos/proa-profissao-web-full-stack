@@ -1,0 +1,12 @@
+.title-item {
+    font-size: 14px;
+    color: #fff;
+}
+
+.text-item {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid #666666e6;
+    color: #c2c2c2e6;
+    height: 40px;
+}

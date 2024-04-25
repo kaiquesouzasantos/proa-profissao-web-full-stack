@@ -6,15 +6,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
+body {
     background-color: #283faa;
     height: 100vh;
     display: grid;
     place-items: center;
 }
-button{
+
+button {
     font-size: 20px;
     padding: 20px 45px;
+    width: 400px;
     background-color: transparent;
     border: 5px solid #ffffff;
     color: #ffffff;
@@ -22,4 +24,8 @@ button{
     border-radius: 20px;
     cursor: pointer;
     outline: none;
+}
+
+span {
+    font-size: 15px;
 }

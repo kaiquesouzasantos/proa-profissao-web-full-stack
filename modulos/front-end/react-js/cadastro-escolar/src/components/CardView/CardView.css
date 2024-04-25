@@ -1,0 +1,11 @@
+.article-card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #363636;
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
+}

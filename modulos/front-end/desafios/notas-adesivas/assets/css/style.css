@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: #050505e6;
+}
+
+button {
+  padding: 10px;
+  width: 150px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  background: whitesmoke;
+  border: 1px solid lightgray;
+}
+
+button:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#modal {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.modal-content textarea {
+  width: 400px;
+  height: 400px;
+  padding: 25px;
+  outline: none;
+  resize: none;
+  font-size: 1.5rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content i {
+  font-size: 1.5rem;
+  color: gray;
+  cursor: pointer;
+  margin-top: -330px;
+  margin-left: -35px;
+  transition: 1s ease-in-out;
+}
+
+.modal-content i:hover {
+  color: lightgray;
+}
+
+.container {
+  width: 1280px;
+  margin: auto;
+}
+
+#header {
+  color: white;
+  padding: 0 20px;
+  min-height: 70px;
+  text-shadow: 1px 1px black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+#header h1 i {
+  margin: 10px;
+}
+
+.fas {
+  color: #c2ff3d;
+}
+
+#all_notes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px 100px;
+}
+
+.note {
+  width: 300px;
+  height: 300px;
+  transition: 2s;
+  cursor: pointer;
+  overflow-wrap: break-word;
+  box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.75);
+}
+
+.note h1 {
+  font-size: 1.5rem;
+}
+
+.details {
+  margin-top: 25px;
+  padding: 0 15px;
+  font-size: 1.5rem;
+}
+
+.details i {
+  color: whitesmoke;
+  cursor: pointer;
+  text-shadow: 1px 1px #BBB;
+}
+
+@media(max-width:1280px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media(max-width:768px) {
+  #header {
+    padding: 20px;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

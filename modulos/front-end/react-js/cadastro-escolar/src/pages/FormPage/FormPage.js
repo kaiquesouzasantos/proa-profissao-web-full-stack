@@ -4,6 +4,7 @@ import Input from "../../components/Input/Input"
 import ButtonSubmit from '../../components/ButtonSubmit/ButtonSubmit'
 import ButtonHome from '../../components/ButtonHome/ButtonHome'
 import AcademicoRepository from '../../data/repository/AcademicoRepository'
+import MessageSubmit from '../../components/MessageSubmit/MessageSubmit'
 
 export default function FormPage() {
     const academicoRepository = new AcademicoRepository()
@@ -22,6 +23,8 @@ export default function FormPage() {
     return(
         <section className='section'>
             <ButtonHome/>
+            <MessageSubmit success={false}/>
+            
             <h2 className='form-title'>Formulário de Cadastro de Acadêmico</h2>
 
             <form onSubmit={handleSubmit} className='form'>

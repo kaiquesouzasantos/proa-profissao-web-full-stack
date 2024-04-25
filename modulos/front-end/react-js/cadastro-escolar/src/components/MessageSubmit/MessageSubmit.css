@@ -1,0 +1,17 @@
+.article-message {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
+}
+
+.article-message.success {
+    background-color: #019f55;
+}
+
+.article-message.error {
+    background-color: #a52a2a;
+}

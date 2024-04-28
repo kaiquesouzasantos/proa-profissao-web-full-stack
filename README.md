@@ -32,7 +32,7 @@
     - [Website Responsivo](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/nodeprop)
     - [Homepage da Techx](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/homepage-techx)
     - [Formulario Funcional](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/form-login-functional)
-    - Bootstrap
+    - ***Bootstrap***
       - [Homepage de Introducao](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/bootstrap/homepage-introduction)
       - [Homepage Carft Lance](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/bootstrap/homepage-carft-lance)
       - [Formulario de Login](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/bootstrap/form-login)
@@ -40,6 +40,30 @@
       - [NavBar Responsiva](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/bootstrap/navbar-responsive)
 
   - Desafios
+    - [Bloco de Notas](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/bloco-notas)
+    - [Buscador de CEP](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/buscador-cep)
+    - [Calculadora](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/calculadora)
+    - [Calculadora de Gorjeta](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/calculadora-gorjeta)
+    - [Calculadora de Idade](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/calculadora-idade)
+    - [Contador](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/contador)
+    - [Conversor de Temperatura](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/conversor-temperatura)
+    - [Cotacao de Criptomoedas](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/contador-criptomoedas)
+    - [Cronometro](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/cronometro)
+    - [Destacador de Palavras](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/destacador-palavras)
+    - [Dicionario](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/dicionario)
+    - [Gerador de Piadas](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/gerador-piadas)
+    - [Gerador de QrCode](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/gerador-qrcode)
+    - [Gerador de Senha](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/gerador-senha)
+    - [Jogo de Dados](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/jogo-dados)
+    - [Mapa em Tempo Real](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/mapa)
+    - [Notas Adesivas](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/notas-adesivas)
+    - [Notificacoes Laterais](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/notificacoes-laterais)
+    - [Numeros Animados](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/numeros-animados)
+    - [Random Background](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/random-background)
+    - [Relogio Dinamico](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/relogio-dinamico)
+    - [Sorteador de Frases](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/sorteador-frases)
+    - [ToDo List](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/todo-list)
+    - [Upload Visivel](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/upload-visivel)
 
   - Artefatos
     - [Popoup](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/popoup)

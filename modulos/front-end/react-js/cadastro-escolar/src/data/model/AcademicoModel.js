@@ -1,6 +1,6 @@
 export class AcademicoModel {
-    constructor(name, ra, email, senha, nascimento, telefone, curso, periodo) {
-        this.name = name
+    constructor(nome, ra, email, senha, nascimento, telefone, curso, periodo) {
+        this.nome = nome
         this.ra = ra
         this.email = email
         this.senha = senha

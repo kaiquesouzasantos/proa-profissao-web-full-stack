@@ -16,3 +16,23 @@
 button {
   grid-column: 1 / -1;
 }
+
+span {
+  color: #e04949;
+}
+
+label {
+  color: #fff;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  margin-top: 5px;
+  border: 1px solid #666666e6;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  color: #050505e6;
+}

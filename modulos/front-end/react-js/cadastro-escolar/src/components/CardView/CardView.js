@@ -4,7 +4,7 @@ import ItemCardView from '../ItemCardView/ItemCardView'
 export default function CardView({academico}) {
     return(
         <article className='article-card'>
-            <ItemCardView title="Nome" text={academico.name}/>
+            <ItemCardView title="Nome" text={academico.nome}/>
             <ItemCardView title="RA" text={academico.ra}/>
             <ItemCardView title="Email" text={academico.email}/>
             <ItemCardView title="Senha" text={academico.senha}/>

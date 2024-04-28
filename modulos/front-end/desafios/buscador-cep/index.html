@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Kaique Souza Santos">
+  <meta name="keywords" content="HTML, CSS e JavaScript">
+  <meta name="description" content="Buscar CEP.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>PROAPROFISSAO | Buscar CEP</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <main class="container">
+    <h1>Buscar Localização com <span>CEP</span></h1>
+
+    <article class="wrapper">
+      <section class="input-box">
+        <input type="text" placeholder="Digite seu CEP" data-input>
+        <i class='bx bx-search-alt-2'></i>
+      </section>
+
+      <section class="result-informations" data-result-informations>
+        <div class="output-box">
+          <span>Logradouro</span>
+          <input type="text" readonly data-logradouro>
+        </div>
+
+        <div class="output-box">
+          <span>Complemento</span>
+          <input type="text" readonly data-complemento>
+        </div>
+
+        <div class="row">
+          <div class="output-box">
+            <span>Estado</span>
+            <input type="text" readonly data-estado>
+          </div>
+  
+          <div class="output-box">
+            <span>Cidade</span>
+            <input type="text" readonly data-cidade>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="output-box">
+            <span>Bairro</span>
+            <input type="text" readonly data-bairro>
+          </div>
+  
+          <div class="output-box">
+            <span>DDD</span>
+            <input type="text" readonly data-ddd>
+          </div>
+        </div>
+      </section>
+
+      <button class="search-button" data-search>Buscar Informações</button>
+    </article>
+  </main>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -16,7 +16,7 @@
   - [Prototipação com Figma](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/interface-ui-ux/figma)
   
 - **Front-End**
-  - Projetos
+  - ***Projetos***
     - [Introdução ao HTML e CSS](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/introducao-html-css)
     - [Cidades Mais Populosas do Brasil](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/cidades-populosas)
     - [Curso de Web Design](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/curso-web-design)
@@ -39,7 +39,7 @@
       - [NavBar](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/bootstrap/navbar)
       - [NavBar Responsiva](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/projetos/bootstrap/navbar-responsive)
 
-  - Desafios
+  - ***Desafios***
     - [Bloco de Notas](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/bloco-notas)
     - [Buscador de CEP](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/buscador-cep)
     - [Calculadora](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/calculadora)
@@ -65,7 +65,7 @@
     - [ToDo List](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/todo-list)
     - [Upload Visivel](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/desafios/upload-visivel)
 
-  - Artefatos
+  - ***Artefatos***
     - [Popoup](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/popoup)
     - [Footer Responsivo](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/footer-responsive)
     - [Formulario Animado](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/form-animated)
@@ -81,16 +81,17 @@
     - [Mudanca de Tema](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/change-theme)
 
 - **Lógica de Programação**
-  - Algoritmos - Manzano
+  - ***Algoritmos - Manzano***
     - [Visualg](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-Manzano/exercicios/visualg)
     - [Javascript](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-Manzano/exercicios/javascript)
     - [Java](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-Manzano/exercicios/java)
-  - Algoritmos - FACCAT
+  - ***Algoritmos - FACCAT***
     - [Visualg](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-FACCAT/exercicios/visualg)
     - [Javascript](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-FACCAT/exercicios/javascript)
     - [Java](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-FACCAT/exercicios/java)
 
 - **DemoDay**
+  - [IncluiDev - Github](https://github.com/IncluiDev) 
 
 #
 ### TECNOLOGIAS

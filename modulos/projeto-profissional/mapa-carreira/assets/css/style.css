@@ -289,20 +289,14 @@ main {
   margin: 15px 12px;
   margin-bottom: 75px;
   min-width: 259px;
-
-
 }
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 405px;
   overflow: hidden;
   transition: var(--transition-2);
 }
 
-.sidebar.active {
-  max-height: 405px;
-}
 
 .sidebar-info {
   position: relative;
@@ -314,12 +308,12 @@ main {
 
 .avatar-box img {
   border-radius: 20px;
-  width: 160px;
+  width: 90px;
 }
 
 .info-content .name {
   color: var(--white-2);
-  font-size: var(--fs-1);
+  font-size: var(--fs-5);
   font-weight: var(--fw-500);
   letter-spacing: -0.25px;
   margin-bottom: 10px;
@@ -328,7 +322,7 @@ main {
 .info-content .title {
   color: var(--white-1);
   background: var(--onyx);
-  font-size: var(--fs-5);
+  font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: max-content;
   padding: 3px 12px;
@@ -702,7 +696,6 @@ main {
     --fs-6: 15px;
     --fs-7: 15px;
     --fs-8: 12px;
-
   }
 
   .sidebar,
@@ -735,20 +728,12 @@ main {
   }
 
   .sidebar {
-    max-height: 180px;
-    margin-bottom: 30px;
-  }
-
-  .sidebar.active {
     max-height: 584px;
+    margin-bottom: 30px;
   }
 
   .sidebar-info {
     gap: 25px;
-  }
-
-  .avatar-box {
-    border-radius: 30px;
   }
 
   .info-content .name {
@@ -836,7 +821,6 @@ main {
 }
 
 @media (min-width: 768px) {
-
   .sidebar,
   article {
     width: 700px;
@@ -857,6 +841,20 @@ main {
 
   .article-title {
     padding-bottom: 20px;
+  }
+
+  .avatar-box img {
+    width: 160px;
+  }
+
+  .info-content .name {
+    font-size: var(--fs-1);
+    font-weight: var(--fw-500);
+  }
+
+  .info-content .title {
+    font-size: var(--fs-5);
+    font-weight: var(--fw-300);
   }
 }
 

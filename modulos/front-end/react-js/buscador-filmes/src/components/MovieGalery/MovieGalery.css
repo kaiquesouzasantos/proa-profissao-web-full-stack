@@ -1,0 +1,18 @@
+.galery {
+    margin-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    justify-content: center; 
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto; 
+    border-radius: 10px;
+}

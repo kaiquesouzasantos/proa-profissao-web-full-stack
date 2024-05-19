@@ -1,0 +1,10 @@
+:root {
+    --color-dark: #050505e6;
+    --color-light: #fff;
+    --color-grey: #424242e6;
+}
+
+body {
+    padding: 50px 100px;
+    background: var(--color-dark);
+}

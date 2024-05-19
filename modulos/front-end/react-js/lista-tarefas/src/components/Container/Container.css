@@ -1,0 +1,9 @@
+.container {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.to-do-list {
+    width: 500px;
+    margin: auto;
+}

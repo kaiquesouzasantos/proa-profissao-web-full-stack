@@ -1,0 +1,50 @@
+:root {
+  --color-dark: #050505e6;
+  --color-light: #fff;
+  --color-brown: #a52a2a;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
+  padding: 25px;
+  background: var(--color-light);
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+
+.counter h1 {
+  color: var(--color-brown);
+  font-size: 9rem;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.icon {
+  width: 100%;
+  text-align: center;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

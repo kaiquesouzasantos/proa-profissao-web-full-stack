@@ -1,0 +1,26 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 5px;
+    padding: 1rem;
+    color: #454545;
+    margin-top: 10px;
+    font-size: 1rem;
+    background-color: #fff;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+    transition: all 0.30s ease-in-out;
+}
+
+.item p {
+    word-break: break-all;
+}
+
+.icon {
+    cursor: pointer;
+    margin: 5px 5px;
+}
+
+.icon:hover {
+    color: #a52a2a;
+}

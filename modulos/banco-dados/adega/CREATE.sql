@@ -68,7 +68,7 @@ CREATE TABLE tb_fornecedor (
     contato VARCHAR(100),
     telefone VARCHAR(15),
     endereco VARCHAR(255),
-    cnpj VARCHAR(20)
+    cnpj CHAR(20)
 );
 
 CREATE TABLE tb_fornecimento (

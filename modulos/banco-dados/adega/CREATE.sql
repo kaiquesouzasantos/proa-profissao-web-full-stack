@@ -1,5 +1,5 @@
-CREATE DATABASE bdAdega;
-USE bdAdega;
+CREATE DATABASE bd_adega;
+USE bd_adega;
 
 CREATE TABLE tb_cliente (
     cliente_id INT AUTO_INCREMENT PRIMARY KEY,

@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS bdFuncionario;
-USE bdFuncionario;
+CREATE DATABASE IF NOT EXISTS bd_funcionario;
+USE bd_funcionario;
 
 CREATE TABLE tb_funcionario (
     funcionario_id INTEGER PRIMARY KEY,

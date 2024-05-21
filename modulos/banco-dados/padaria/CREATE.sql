@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS bdPadaria;
-USE bdPadaria;
+CREATE DATABASE IF NOT EXISTS bd_padaria;
+USE bd_padaria;
 
 CREATE TABLE tb_cliente (
     id_cliente INT AUTO_INCREMENT PRIMARY KEY,

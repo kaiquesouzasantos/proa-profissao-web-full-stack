@@ -1,5 +1,6 @@
 CREATE DATABASE bd_adega;
 USE bd_adega;
+<<<<<<< HEAD
 
 CREATE TABLE tb_funcao (
     funcao_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -7,6 +8,8 @@ CREATE TABLE tb_funcao (
     descricao VARCHAR(255),
     salario DECIMAL(10, 2) NOT NULL
 );
+=======
+>>>>>>> d13ea6522ce4ee3c8663ac233eb5de9483f58c58
 
 CREATE TABLE tb_cliente (
     cliente_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -106,6 +109,18 @@ CREATE TABLE tb_estoque (
     FOREIGN KEY (bebida_id) REFERENCES tb_bebida(bebida_id)
 );
 
+<<<<<<< HEAD
+=======
+CREATE TABLE tb_fornecedor (
+    fornecedor_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    contato VARCHAR(100),
+    telefone VARCHAR(15),
+    endereco VARCHAR(255),
+    cnpj CHAR(20)
+);
+
+>>>>>>> d13ea6522ce4ee3c8663ac233eb5de9483f58c58
 CREATE TABLE tb_fornecimento (
     fornecimento_id INT AUTO_INCREMENT PRIMARY KEY,
     fornecedor_id INT,

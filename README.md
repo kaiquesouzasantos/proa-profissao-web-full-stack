@@ -90,6 +90,25 @@
     - [Javascript](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-FACCAT/exercicios/javascript)
     - [Java](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-FACCAT/exercicios/java)
 
+- **Banco de Dados**
+  - [Adega](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/adega) 
+  - [Aeroporto](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/aeroporto) 
+  - [Banco Digital](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/banco-digital) 
+  - [E-commerce](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/e-commerce) 
+  - [Funcionario](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/funcionario) 
+  - [Lan House](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/lan-house) 
+  - [Livraria](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/livraria) 
+  - [Loja de Doces](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/loja-doces) 
+  - [Loja de Informatica](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/loja-informatica) 
+  - [Mercado](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/mercado) 
+  - [Oficina Mecanica](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/oficina-mecanica) 
+  - [Padaria](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/padaria) 
+  - [Papelaria](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/papelaria) 
+  - [Pizzaria](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/pizzaria) 
+  - [Restaurante](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/restaurante) 
+
+- **Back-End**
+
 - **DemoDay**
   - [IncluiDev - Github](https://github.com/IncluiDev) 
 
@@ -113,6 +132,7 @@ Exemplo:
 ```
 kaiquesouzasantos.github.io/proa-profissao-web-full-stack/modulos/front-end/projetos/prime-video
 ```
+
 #
 ### FERRAMENTAS
 

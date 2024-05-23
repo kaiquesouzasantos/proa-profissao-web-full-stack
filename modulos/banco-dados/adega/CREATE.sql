@@ -1,16 +1,42 @@
-CREATE DATABASE bdAdega;
-USE bdAdega;
+CREATE DATABASE bd_adega;
+USE bd_adega;
+
+CREATE TABLE tb_funcao (
+    funcao_id INT AUTO_INCREMENT PRIMARY KEY,
+    cargo VARCHAR(50) NOT NULL,
+    descricao VARCHAR(255),
+    salario DECIMAL(10, 2) NOT NULL
+);
 
 CREATE TABLE tb_cliente (
     cliente_id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     cpf VARCHAR(14) UNIQUE NOT NULL,
-    email VARCHAR(100),
-    telefone VARCHAR(15),
-    endereco VARCHAR(255),
-    data_nascimento DATE,
-    genero VARCHAR(20),
     status VARCHAR(20) DEFAULT 'ativo'
+);
+
+CREATE TABLE tb_funcionario (
+    funcionario_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    cpf CHAR(11) UNIQUE NOT NULL,
+    funcao_id INT,
+    nacionalidade VARCHAR(50),
+    nome_mae VARCHAR(100),
+    data_nascimento DATE,
+    rg VARCHAR(20),
+    FOREIGN KEY (funcao_id) REFERENCES tb_funcao(funcao_id)
+);
+
+CREATE TABLE tb_fornecedor (
+    fornecedor_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    cnpj VARCHAR(20)
+);
+
+CREATE TABLE tb_detalhamento (
+    detalhamento_id INT AUTO_INCREMENT PRIMARY KEY,
+    tipo ENUM("FUNCIONARIO", "CLIENTE", "FORNECEDOR") NOT NULL,
+    ator_id INT NOT NULL -- nesse contexto, de acordo com o ator, uma procedure irá verificar a tabela da referência do ator
 );
 
 CREATE TABLE tb_categoria_bebida (
@@ -35,10 +61,28 @@ CREATE TABLE tb_bebida (
 CREATE TABLE tb_venda (
     venda_id INT AUTO_INCREMENT PRIMARY KEY,
     cliente_id INT,
+    funcionario_id INT,
     data_venda DATE NOT NULL,
     valor_total DECIMAL(10, 2) NOT NULL,
-    metodo_pagamento VARCHAR(50),
-    FOREIGN KEY (cliente_id) REFERENCES tb_cliente(cliente_id)
+    metodo_pagamento ENUM('DINHEIRO', 'CARTAO', 'PIX', 'OUTRO') NOT NULL,
+    FOREIGN KEY (cliente_id) REFERENCES tb_cliente(cliente_id),
+    FOREIGN KEY (funcionario_id) REFERENCES tb_funcionario(funcionario_id)
+);
+
+CREATE TABLE tb_venda_bebida (
+    venda_bebida_id INT AUTO_INCREMENT PRIMARY KEY,
+    venda_id INT NOT NULL,
+    bebida_id INT NOT NULL,
+    FOREIGN KEY (venda_id) REFERENCES tb_venda(venda_id),
+    FOREIGN KEY (bebida_id) REFERENCES tb_bebida(bebida_id)
+);
+
+CREATE TABLE tb_contato (
+    contato_id INT AUTO_INCREMENT PRIMARY KEY,
+    valor VARCHAR(100),
+    tipo ENUM("EMAIL", "TELEFONE", "CELULAR"),
+    detalhamento_id INT,
+    FOREIGN KEY (detalhamento_id) REFERENCES tb_detalhamento(detalhamento_id)
 );
 
 CREATE TABLE tb_item_venda (
@@ -62,15 +106,6 @@ CREATE TABLE tb_estoque (
     FOREIGN KEY (bebida_id) REFERENCES tb_bebida(bebida_id)
 );
 
-CREATE TABLE tb_fornecedor (
-    fornecedor_id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
-    contato VARCHAR(100),
-    telefone VARCHAR(15),
-    endereco VARCHAR(255),
-    cnpj VARCHAR(20)
-);
-
 CREATE TABLE tb_fornecimento (
     fornecimento_id INT AUTO_INCREMENT PRIMARY KEY,
     fornecedor_id INT,
@@ -79,4 +114,41 @@ CREATE TABLE tb_fornecimento (
     data_fornecimento DATE NOT NULL,
     FOREIGN KEY (fornecedor_id) REFERENCES tb_fornecedor(fornecedor_id),
     FOREIGN KEY (bebida_id) REFERENCES tb_bebida(bebida_id)
+);
+
+CREATE TABLE tb_parentesco (
+    parentesco_id INT AUTO_INCREMENT PRIMARY KEY,
+    grau VARCHAR(50) NOT NULL,
+    nomeclatura VARCHAR(50)
+);
+
+CREATE TABLE tb_dependente (
+    dependente_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    cpf VARCHAR(14),
+    parentesco_id INT,
+    funcionario_id INT,
+    FOREIGN KEY (parentesco_id) REFERENCES tb_parentesco(parentesco_id),
+    FOREIGN KEY (funcionario_id) REFERENCES tb_funcionario(funcionario_id)
+);
+
+CREATE TABLE tb_endereco (
+    endereco_id INT AUTO_INCREMENT PRIMARY KEY,
+    logradouro VARCHAR(255),
+    numero INT,
+    cep VARCHAR(10),
+    cidade VARCHAR(100),
+    uf CHAR(2),
+    pais VARCHAR(50),
+    detalhamento_id INT,
+    FOREIGN KEY (detalhamento_id) REFERENCES tb_detalhamento(detalhamento_id)
+);
+
+CREATE TABLE tb_ctps (
+    ctps_id INT AUTO_INCREMENT PRIMARY KEY,
+    funcionario_id INT,
+    nome_mae VARCHAR(100),
+    num_carteira_trabalho VARCHAR(20),
+    contrato VARCHAR(50),
+    FOREIGN KEY (funcionario_id) REFERENCES tb_funcionario(funcionario_id)
 );

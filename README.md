@@ -92,20 +92,6 @@
 
 - **Banco de Dados**
   - [Adega](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/adega) 
-  - [Aeroporto](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/aeroporto) 
-  - [Banco Digital](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/banco-digital) 
-  - [E-commerce](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/e-commerce) 
-  - [Funcionario](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/funcionario) 
-  - [Lan House](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/lan-house) 
-  - [Livraria](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/livraria) 
-  - [Loja de Doces](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/loja-doces) 
-  - [Loja de Informatica](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/loja-informatica) 
-  - [Mercado](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/mercado) 
-  - [Oficina Mecanica](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/oficina-mecanica) 
-  - [Padaria](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/padaria) 
-  - [Papelaria](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/papelaria) 
-  - [Pizzaria](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/pizzaria) 
-  - [Restaurante](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/restaurante) 
 
 - **Back-End**
 

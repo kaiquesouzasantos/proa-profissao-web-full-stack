@@ -81,6 +81,9 @@
     - [Mudanca de Tema](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/front-end/artefatos/change-theme)
 
 - **Lógica de Programação**
+  - **Desafios**
+    - [Visualg](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/desafios/visualg)
+    - [Java](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/desafios/java/desafios)
   - ***Algoritmos - Manzano***
     - [Visualg](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-Manzano/exercicios/visualg)
     - [Javascript](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-Manzano/exercicios/javascript)

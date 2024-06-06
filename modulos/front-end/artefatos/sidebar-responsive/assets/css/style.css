@@ -11,12 +11,16 @@
 body {
     display: flex;
     min-height: 100vh;
-    background-color: #e6e6e6;
+    background-color: #050505e6;
 }
 
 main {
     padding: 20px;
     z-index: 1;
+}
+
+h1 {
+    color: #fff;
 }
 
 .sidebar {

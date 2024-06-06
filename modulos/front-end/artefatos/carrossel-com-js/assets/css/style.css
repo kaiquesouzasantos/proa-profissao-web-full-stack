@@ -2,8 +2,8 @@
 @import url("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
 
 :root {
-    --primary-color: #8C17E0;
-    --secundary-color: #6A3C8B;
+    --primary-color: #050505e6;
+    --secundary-color: #464646e6;
     --text-color: #222;
     --body-color: #EFEFEF;
     --default-color: #fff;
@@ -39,7 +39,7 @@ body {
 .card {
     border-radius: 25px;
     background: var(--default-color);
-    box-shadow: 4px 4px 8px rgb(106, 60, 139, 0.6);
+    box-shadow: 4px 4px 8px rgb(0, 0, 0, 0.6);
 }
 
 .image-content, .card-content {

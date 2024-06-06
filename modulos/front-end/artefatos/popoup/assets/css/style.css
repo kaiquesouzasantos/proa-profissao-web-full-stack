@@ -13,7 +13,7 @@ main {
   position: fixed;
   height: 100%;
   width: 100%;
-  background: linear-gradient(180deg, rgba(80,245,233,1) 0%, rgba(52,175,212,1) 50%, rgba(58,108,189,1) 100%);
+  background-color: #050505e6;
 }
 
 button {

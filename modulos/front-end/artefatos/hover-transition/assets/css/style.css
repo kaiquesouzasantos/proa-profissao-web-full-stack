@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #5a0cb3;
+    background: #050505e6;
 }
 
 .container {
@@ -45,7 +45,7 @@ body {
     transform: translate(-50%, -50%);
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #5a0cb3;
+    border: 3px solid #050505e6;
 }
 
 .card::before {
@@ -147,12 +147,12 @@ body {
 
 .job {
     font-size: 17px;
-    color: #5a0cb3;
+    color: #050505e6;
     margin: -3px 0 5px 0;
 }
 
 .details a:hover {
-    color: #5a0cb3;
+    color: #050505e6;
 }
 
 .hover-image {

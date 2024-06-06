@@ -13,7 +13,7 @@
     --color-text: #707070;
     --color-title: #333;
     --color-default: #fff;
-    --color-differencial: rgb(130, 106, 251);
+    --color-differencial: #050505e6;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background: linear-gradient(180deg, rgba(179,80,245,1) 0%, rgba(141,63,194,1) 25%, rgba(109,49,149,1) 50%, rgba(77,35,106,1) 75%, rgba(25,11,34,1) 100%);
+    background-color: #050505e6;
 }
 
 main {
@@ -147,10 +147,9 @@ form :where(.gender input, .gender label) {
 }
 
 .button-submit:hover {
-    background: rgb(88, 56, 250);
+    background: #555555e6;
 }
 
-/* Responsividade */
 @media screen and (max-width: 500px) {
     body {
         padding: 0;

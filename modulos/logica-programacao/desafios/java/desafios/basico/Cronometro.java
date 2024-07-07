@@ -1,4 +1,4 @@
-package desafios;
+package desafios.basico;
 
 public class Cronometro {
     public static void main(String[] args) throws Exception{

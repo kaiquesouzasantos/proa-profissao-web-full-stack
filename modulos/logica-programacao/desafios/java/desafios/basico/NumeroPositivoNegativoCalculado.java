@@ -1,8 +1,13 @@
-package desafios;
+package desafios.basico;
 
 import java.util.Scanner;
 
 public class NumeroPositivoNegativoCalculado {
+    /*
+        Escreva um programa que leia um número e informe se ele é positivo ou negativo.
+        Se for positivo, calcule a raiz quadrada; se for negativo, informe o número ao quadrado.
+    */
+
     private static final Scanner entrada = new Scanner(System.in);
 
     public static void main(String[] args) {

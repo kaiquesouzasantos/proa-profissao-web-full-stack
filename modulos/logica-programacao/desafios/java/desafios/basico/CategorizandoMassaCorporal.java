@@ -1,8 +1,18 @@
-package desafios;
+package desafios.basico;
 
 import java.util.Scanner;
 
 public class CategorizandoMassaCorporal {
+    /*
+        Escreva um programa que leia o peso e a altura de uma pessoa, calcule o IMC e informe a categoria:
+        - Abaixo do peso: IMC < 18.5
+        - Peso normal: 18.5 <= IMC < 24.9
+        - Sobrepeso: 25 <= IMC < 29.9
+        - Obesidade grau I: 30 <= IMC < 34.9
+        - Obesidade grau II: 35 <= IMC < 39.9
+        - Obesidade grau III: IMC >= 40
+    */
+
     private static final Scanner entrada = new Scanner(System.in);
 
     public static void main(String[] args) {

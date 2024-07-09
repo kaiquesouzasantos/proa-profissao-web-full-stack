@@ -2,24 +2,25 @@ package desafios.vetores.application.service;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class SumarizadorService {
-    private List<Integer> lista;
+    private final List<Integer> lista;
 
     public SumarizadorService(List<Integer> lista) {
         this.lista = new ArrayList<>(lista);
     }
 
     public int getSoma() {
-        return lista.stream().reduce(Integer::sum).orElse(0);
+        return getListaStream().reduce(Integer::sum).orElse(0);
     }
 
     public int getMaior() {
-        return lista.stream().reduce(Integer::max).orElse(0);
+        return getListaStream().reduce(Integer::max).orElse(0);
     }
 
     public int getMenor() {
-        return lista.stream().reduce(Integer::min).orElse(0);
+        return getListaStream().reduce(Integer::min).orElse(0);
     }
 
     public double getMedia() {
@@ -27,19 +28,19 @@ public class SumarizadorService {
     }
 
     public List<Integer> getInvertido() {
-        return lista.stream()
+        return getListaStream()
                 .sorted(Comparator.reverseOrder())
                 .collect(Collectors.toList());
     }
 
     public List<Integer> getPares() {
-        return lista.stream()
+        return getListaStream()
                 .filter(valor -> valor % 2 == 0)
                 .collect(Collectors.toList());
     }
 
     public List<Integer> getCrescente() {
-        return lista.stream()
+        return getListaStream()
                 .sorted()
                 .collect(Collectors.toList());
     }
@@ -47,8 +48,7 @@ public class SumarizadorService {
     public Map<Integer, Integer> getContadorOcorrencias() {
         Map<Integer, Integer> contabilizacao = new HashMap<>();
 
-        lista.stream()
-                .collect(Collectors.toSet())
+        new HashSet<>(lista)
                 .forEach(valor -> contabilizacao.put(valor, (int) lista.stream().filter(numero -> numero == valor).count()));
 
         return contabilizacao;
@@ -59,12 +59,14 @@ public class SumarizadorService {
     }
 
     public void remove(int numero) {
-        lista = lista.stream()
-                .filter(valor -> valor != numero)
-                .collect(Collectors.toList());
+        lista.remove(numero);
     }
 
     public void appendVetor(List<Integer> novaLista) {
         lista.addAll(novaLista);
+    }
+
+    private Stream<Integer> getListaStream() {
+        return lista.stream();
     }
 }

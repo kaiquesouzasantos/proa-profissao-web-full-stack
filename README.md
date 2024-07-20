@@ -94,9 +94,7 @@
     - [Java](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/logica-programacao/Algoritmos-FACCAT/exercicios/java)
 
 - **Banco de Dados**
-  - [Adega](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/adega) 
-
-- **Back-End**
+  - [Adega](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/banco-dados/adega)
 
 - **DemoDay**
   - [IncluiDev - Github](https://github.com/IncluiDev) 

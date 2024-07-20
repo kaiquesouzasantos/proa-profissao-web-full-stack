@@ -5,12 +5,12 @@
 </p>
 
 #
-### SOBRE
+### 📚 SOBRE
 
 - Repositório que abriga o desenvolvimento das atividades técnicas realizadas nas dependências do programa PROPROFISSÃO, no primeiro semestre de 2024, com [Jailson Costa dos Santos](https://github.com/professorobama).
 
 #
-### TOPICOS
+### ⭐ TOPICOS
 
 - **Interfaces, UI/UX**
   - [Prototipação com Figma](https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack/tree/master/modulos/interface-ui-ux/figma)
@@ -100,7 +100,7 @@
   - [IncluiDev - Github](https://github.com/IncluiDev) 
 
 #
-### TECNOLOGIAS
+### 💻 TECNOLOGIAS
 
 ![HTML](https://img.shields.io/badge/HTML-0D1117?style=for-the-badge&logo=html5&labelColor=0D1117)&nbsp;
 ![CSS](https://img.shields.io/badge/CSS-0D1117?style=for-the-badge&logo=CSS3&logoColor=1572B6&labelColor=0D1117)&nbsp;
@@ -110,7 +110,7 @@
 ![MySQL](https://img.shields.io/badge/mysql-0D1117?style=for-the-badge&logo=mysql&labelColor=0D1117)&nbsp;
 
 #
-### VISUALIZAÇÃO DE PROJETOS
+### 👁️ VISUALIZAÇÃO DE PROJETOS
 
 ```
 kaiquesouzasantos.github.io/proa-profissao-web-full-stack/modulos/front-end/<tipo>/<projeto>
@@ -123,7 +123,7 @@ kaiquesouzasantos.github.io/proa-profissao-web-full-stack/modulos/front-end/proj
 ```
 
 #
-### FERRAMENTAS
+### 🔨 FERRAMENTAS
 
 ![Intellij](https://img.shields.io/badge/intellij-0D1117?style=for-the-badge&logo=intellij-idea&logoColor=white&labelColor=0D1117)&nbsp;
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0D1117?style=for-the-badge&logo=visual%20studio%20code&logoColor=white&labelColor=0D1117)&nbsp;
@@ -132,7 +132,7 @@ kaiquesouzasantos.github.io/proa-profissao-web-full-stack/modulos/front-end/proj
 ![Figma](https://img.shields.io/badge/figma-0D1117?style=for-the-badge&logo=figma&logoColor=white&labelColor=0D1117)&nbsp;
 
 #
-### CONTRIBUIÇÃO
+### 🔗 CONTRIBUIÇÃO
 
 ```
 $ git clone https://github.com/kaiquesouzasantos/proa-profissao-web-full-stack.git 
